@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drupal on Teun van Veggel - Freelance Drupal Consultant</title>
+    <link>https://www.teunvanveggel.nl/tags/drupal/</link>
+    <description>Recent content in Drupal on Teun van Veggel - Freelance Drupal Consultant</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://www.teunvanveggel.nl/tags/drupal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ace In Art</title>
+      <link>https://www.teunvanveggel.nl/projects/aceinart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.teunvanveggel.nl/projects/aceinart/</guid>
+      <description> Custom Design and implementation using SASS Advanced workflow for published and moderated content www.aceinart.com  </description>
+    </item>
+    
+    <item>
+      <title>Crisnail</title>
+      <link>https://www.teunvanveggel.nl/projects/crisnail/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.teunvanveggel.nl/projects/crisnail/</guid>
+      <description>http://www.crisnail.com  We were responsible for both the design and development of this multilingual website for professional nail products Crisnail, featuring a product showcase and a restricted area for professionals to download instruction and publishing materials.
+It also features a dynamic Nail studio which generates images for different colors and styles automatically, using a custom programmed Drupal &amp;lsquo;Image style&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>EOI Business School</title>
+      <link>https://www.teunvanveggel.nl/projects/eoi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.teunvanveggel.nl/projects/eoi/</guid>
+      <description>www.eoi.es  For this project I was lead developer and product owner, working together with FrontID In the first phase of this project we defined and built a new, sustainable, architecture in Drupal and migrated hundreds of thousands of contents coming from LifeRay.
+The original, static HTML pages of the old website were migrated to dynamic and flexible pages: site editors can now create slideshows, tabs and accordions on the fly and drag and drop them freely into the design without any requiring programming knowledge.</description>
+    </item>
+    
+    <item>
+      <title>Flean</title>
+      <link>https://www.teunvanveggel.nl/projects/flean/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.teunvanveggel.nl/projects/flean/</guid>
+      <description>https://www.fijnopvakantie.nl https://www.buitenbergen.nl  What started out as one of most successful holiday rental websites in the Netherlands, www.fijnopvakantie.nl, grew out to be a full-service, hosted holiday rental solution, currently serving than 20 holiday rental websites.
+The platform allows holiday park owners to increase revenue and improve conversion with a customizable, full-fledged solution taking care of bookings, processing availability (connecting to more than 10 different external booking services) and many other functionalities.</description>
+    </item>
+    
+    <item>
+      <title>IBP Uniuso</title>
+      <link>https://www.teunvanveggel.nl/projects/uniuso/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.teunvanveggel.nl/projects/uniuso/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

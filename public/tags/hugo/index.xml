@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Teun van Veggel - Freelance Drupal Consultant</title>
+    <link>https://www.teunvanveggel.nl/tags/hugo/</link>
+    <description>Recent content in Hugo on Teun van Veggel - Freelance Drupal Consultant</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Aug 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.teunvanveggel.nl/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo vs Drupal: Why I used Hugo for my Drupal portfolio website.</title>
+      <link>https://www.teunvanveggel.nl/posts/hugo-vs-drupal/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.teunvanveggel.nl/posts/hugo-vs-drupal/</guid>
+      <description>Drupal is a full-fledged CMS for secure and complex websites and applications and is adopted by many big companies and governments accross the globe. Hugo is a static site generator built in GoLang that is blazing fast and quickly gaining popularity. For this website about my Drupal work I decided to go for Hugo. Here&#39;s why.
+
+When I started building my new portfolio website, I decided to look further than Drupal to build it.</description>
+    </item>
+    
+  </channel>
+</rss>

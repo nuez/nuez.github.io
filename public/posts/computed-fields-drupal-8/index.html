@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Create computed fields in Drupal 8 &middot; Teun van Veggel - Freelance Drupal Consultant</title>
+    
+    
+    <meta name="generator" content="Hugo 0.25.1" />
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <!-- RSS autodiscovery -->
+    
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://www.teunvanveggel.nl/css/screen.css">
+    <link rel="stylesheet" href="https://www.teunvanveggel.nl/css/github.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/default.min.css">
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/googlecode.min.css">
+    
+
+    
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.teunvanveggel.nl/images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="https://www.teunvanveggel.nl/images/favicon.png">
+    
+</head>
+
+<body>
+<aside>
+  <i class="menu-trigger fa fa-close" aria-hidden="true"></i>
+  
+
+
+<nav class="menu" role="nav">
+    <ul>
+        
+
+      <li ><a href="/"> Teun van Veggel/nuez.io </a> </li>
+
+      
+
+      <li class="active"><a href="/posts/"> Posts </a> </li>
+
+      
+
+      <li ><a href="/projects/"> Work </a> </li>
+
+      
+
+      <li ><a href="/testimonies/"> Quotes </a> </li>
+
+      
+
+      <li ><a href="/talks/"> Talks </a> </li>
+
+      
+
+      <li ><a href="/contact/"> Hire me </a> </li>
+
+      
+    </ul>
+</nav>
+
+  <section class="footer-social">
+      
+      <a href="//twitter.com/@nuezweb" target="_blank" title="Twitter"><i class="fa fa-2x fa-fw fa-twitter"></i> <span class="hidden">Twitter</span></a>&nbsp;
+      
+      
+      <a href="//www.linkedin.com/in/teunvanveggel" target="_blank" title="linkedIn"><i class="fa fa-2x fa-fw fa-linkedin"></i> <span class="hidden">LinkedIn</span></a>&nbsp;
+      
+      
+      
+      
+      
+      <a href="//github.com/nuez" target="_blank" title="GitHub"><i class="fa fa-2x fa-fw fa-github"></i> <span class="hidden">GitHub</span></a>&nbsp;
+      
+      
+      
+      
+      <a href="//drupal.org/u/nuez" target="_blank" title="Bitbucket"><i
+        class="fa fa-2x fa-fw fa-drupal"></i> <span class="hidden">Drupal</span></a>&nbsp;
+      
+      
+  </section>
+</aside>
+<header id="site-head">
+</header>
+<main class="content" role="main">
+  <i class="menu-trigger fa fa-bars" aria-hidden="true"></i>
+
+  
+<article class="posts">
+
+
+
+  
+  <header >
+    <div class="inner">
+      <h1>
+      Create computed fields in Drupal 8</h1>
+      <div class="subtitle">
+        
+      </div>
+      
+      <div class="post-meta subtitle">
+        <time datetime=" 01 August 2017 ">
+        01 August 2017
+        </time>
+      </div>
+    </div>
+    
+
+    <section class="sharetop">
+          <a href="http://twitter.com/share?text=Create%20computed%20fields%20in%20Drupal%208&url=https%3a%2f%2fwww.teunvanveggel.nl%2fposts%2fcomputed-fields-drupal-8%2f" title="Share on Twitter"
+        onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+        <i class="fa fa-2x fa-fw fa-twitter-square"></i> <span class="hidden"></span>
+    </a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.teunvanveggel.nl%2fposts%2fcomputed-fields-drupal-8%2f" title="Share on Facebook"
+        onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+        <i class="fa fa-2x fa-fw fa-facebook-square" style="margin-left: -8px"></i> <span class="hidden"></span>
+    </a>
+    <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.teunvanveggel.nl%2fposts%2fcomputed-fields-drupal-8%2f" title="Share on Google+"
+       onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+        <i class="fa fa-2x fa-fw fa-google-plus-square" style="margin-left: -8px"></i> <span class="hidden"></span>
+    </a>
+    </section>
+  </header>
+
+  
+  <section class="post-tags">
+    <div class="post-meta tags">
+      
+      
+      <span>Drupal 8 </span>
+      
+      
+      <span>Entity </span>
+      
+      
+      <span>Field </span>
+      
+    </div>
+  </section>
+  
+
+
+  <section class="post-content">
+    
+
+    
+
+<p><p class="big">
+In Drupal 7 it was possible to add computed properties to entities using a simple hook. Those properties would then become available to modules like Search API and Views. How do computed fields work in Drupal 8 and do they have the same level of maturity?
+</div></p>
+
+<p>In Drupal 8 we can distinguish between field types that have some computed <strong>properties</strong> and on the other hand fields that are fully computed.</p>
+
+<p>The former is quite common in Drupal 8: several field type definitions have computed properties alongside other properties that are stored in the database. For example the <code>TextItem</code> field type stores the <code>value</code> and the <code>format</code> in the database, but a third property <code>processed</code> is computed on the fly: it parses the raw text <em>value</em> using a <em>format</em> resulting in the <em>processed</em> value. Another example is the <code>entity</code> property on the EntityReferenceItem field type, which &lsquo;computes&rsquo; the full entity based on the <code>target_id</code> property that is saved to the database.</p>
+
+<p>This blog post is about the latter: creating field definitions based on existing field types that don&rsquo;t store data to the database but are entirely computed. The only example of this in core that I have been able to find is the <code>moderation_state</code> field in the <em>Content Moderation</em> module in core.</p>
+
+<h2 id="so-how-does-it-work">So how does it work?</h2>
+
+<p>Let&rsquo;s see an example. Let&rsquo;s say we want to add the field <code>my_computed_field</code> to all nodes that returns a random list of strings.</p>
+
+<p>First we need to add a base class and set the <code>setComputed()</code> and <code>setClass</code> setters. The field is computed so we don&rsquo;t need it on the node form, but we do need it to show on the node view settings in order to change the display settings. For that we use the <code>-&gt;setDisplayOptions()</code> and <code>-&gt;setDisplayConfigurable</code> setters.</p>
+
+<pre><code>/**
+ * Implements hook_entity_base_field_info_alter().
+ */
+function your_module_entity_base_field_info_alter(&amp;$fields, EntityTypeInterface $entity_type) {
+  if ($entity_type-&gt;id() === &quot;node&quot;) {
+    $fields['my_computed_field'] = BaseFieldDefinition::create('string')
+      -&gt;setName('my_computed_field')
+      -&gt;setLabel(t('My computed field'))
+      -&gt;setComputed(TRUE)
+      -&gt;setTargetEntityTypeId('node')
+      -&gt;setClass(ComputedField::class)
+      -&gt;setDisplayOptions('view', [
+        'type' =&gt; 'string',
+        'weight' =&gt; 0,
+      ])
+      -&gt;setDisplayConfigurable('view', TRUE);
+  }
+}
+</code></pre>
+
+<p>In Drupal 8 all fields are <em>lists</em> of field items, even if they only contain one item (cardinality of one).  The <code>FieldItemList</code>class takes care of instantiating each field item with the value that was fetched from the database. It then puts the field items in the <em>list</em> class variable.</p>
+
+<p>The two methods that are - eventually - responsible for instantiating those field items and putting them in the <code>list</code> class variable are the <code>-&gt;get()</code> and <code>-&gt;getIterator()</code> methods. Once the field items are already in the <em>list</em> class variable, they will not be instantiated again. So to make the computed class work we only need to make sure that we instantiate fields and add them to <em>list</em>, before the parent methods have the chance to do so.</p>
+
+<pre><code>class ComputedField extends FieldItemList implements FieldItemListInterface {
+
+  /**
+   * {@inheritdoc}
+   */
+  public function get($index) {
+    $this-&gt;setComputedValues();
+    return isset($this-&gt;list[$index]) ? parent::get($index) : NULL;
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function getIterator() {
+    $this-&gt;setComputedValues();
+    return parent::getIterator();
+  }
+
+  /**
+   * Compute the values.
+   */
+  protected function computeValues(){
+    $some_calculated_values = [1,2,3];
+    foreach($some_calculated_values as $delta =&gt; $value){
+      $this-&gt;list[$delta] = $this-&gt;createItem($delta, $value);
+    }
+  }
+  
+}
+</code></pre>
+
+<p>This class eventually needs to take various things into account: it needs to overwriting two methods and instantiating field items. Ideally you would only have one simple method to implement: one that returns an array of computed values. That&rsquo;s why in <a href="https://www.drupal.org/node/2392845">https://www.drupal.org/node/2392845</a> there is a patch pending approval that adds a base class that does the heavy lifting for you. It also includes field validation based on the field type.</p>
+
+<h2 id="compatibility-with-other-modules">Compatibility with other modules</h2>
+
+<p>The nice thing about computed entity properties in Drupal 7 was that your computed properties were automatically picked up by different contrib modules: Views would automatically &lsquo;see&rsquo; your computed field. Also search API was able to index computed fields. What&rsquo;s the status of this in Drupal 8?</p>
+
+<h3 id="views">Views</h3>
+
+<p>In Drupal 8, we&rsquo;re almost at the same level: Views in Drupal 8.4 supports computed fields and will allow them to be rendered as a field. It&rsquo;s not as magic (yet) as Drupal 7: we still need to declare our computed field in <code>hook_views_data_alter</code> in order to be picked up by Views:</p>
+
+<pre><code>/**
+ * Implements hook_views_data_alter().
+ */
+function your_module_views_data_alter(array &amp;$data) {
+  $data['node']['my_computed_field'] = [
+    'title' =&gt; t('My computed field'),
+    'field' =&gt; [
+      'id' =&gt; 'field',
+      'default_formatter' =&gt; 'string',
+      'field_name' =&gt; 'my_computed_field',
+    ],
+  ];
+}
+</code></pre>
+
+<p>Since Views is technically a visual query builder, and our computed field is not stored to the database, it doesn&rsquo;t allow you to use a computed field for sorting and limiting the view.</p>
+
+<h3 id="search-api">Search API</h3>
+
+<p>Search API does work with computed fields out of the box. Yeah!</p>
+
+<h3 id="rest-in-core-and-contrib">Rest in core and contrib.</h3>
+
+<p>Rest in core works with computed fields out of the box. Yeah!</p>
+
+<p>However I&rsquo;ve also tried JsonAPI and that still needs some work: see issue <a href="https://www.drupal.org/node/2912116">https://www.drupal.org/node/2912116</a>.</p>
+
+<h2 id="caveats">Caveats</h2>
+
+<p>It&rsquo;s currently not really possible to add computed fields in code for specific bundles only. There is a <code>hook_entity_bundle_field_info</code> hook, which is due to become deprecated when <a href="https://www.drupal.org/node/2346347">https://www.drupal.org/node/2346347</a> is finished. Adding the computed field definition here should be possible according to hook documentation, however seems to throw exceptions.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Computed fields widely used nor documented very clearly yet, but it&rsquo;s there, mostly working, and will have many use cases for example when using Drupal as an API or SAAS.</p>
+
+    
+  </section>
+
+  
+
+  <section class="share">
+        <p class="info prompt">Share</p>
+    <a href="http://twitter.com/share?text=Create%20computed%20fields%20in%20Drupal%208&url=https%3a%2f%2fwww.teunvanveggel.nl%2fposts%2fcomputed-fields-drupal-8%2f" title="Share on Twitter"
+        onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+        <i class="fa fa-2x fa-fw fa-twitter-square"></i> <span class="hidden">Twitter</span>
+    </a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.teunvanveggel.nl%2fposts%2fcomputed-fields-drupal-8%2f" title="Share on Facebook"
+        onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+        <i class="fa fa-2x fa-fw fa-facebook-square" style="margin-left: -8px"></i> <span class="hidden">Facebook</span>
+    </a>
+    <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.teunvanveggel.nl%2fposts%2fcomputed-fields-drupal-8%2f" title="Share on Google+"
+       onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+        <i class="fa fa-2x fa-fw fa-google-plus-square" style="margin-left: -8px"></i> <span class="hidden">Google+</span>
+    </a>
+    <p class="backtotop"><a data-scroll href="#site-head"><i class="fa fa-lg fa-fw fa-angle-double-up"></i></a><a data-scroll class="backtotoptext" href="#site-head"> Back to top</a></p>
+
+  </section>
+
+  <section class="disqus">
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "nuez" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </section>
+  
+</article>
+
+</main>
+
+<footer class="site-footer">
+	<div class="inner">
+		<section class="footer-social">
+      
+      <a href="//twitter.com/@nuezweb" target="_blank" title="Twitter"><i class="fa fa-2x fa-fw fa-twitter"></i> <span class="hidden">Twitter</span></a>&nbsp;
+      
+      
+      <a href="//www.linkedin.com/in/teunvanveggel" target="_blank" title="linkedIn"><i class="fa fa-2x fa-fw fa-linkedin"></i> <span class="hidden">LinkedIn</span></a>&nbsp;
+      
+      
+      
+      
+      
+      <a href="//github.com/nuez" target="_blank" title="GitHub"><i class="fa fa-2x fa-fw fa-github"></i> <span class="hidden">GitHub</span></a>&nbsp;
+      
+      
+      
+      
+      <a href="//drupal.org/u/nuez" target="_blank" title="Bitbucket"><i
+        class="fa fa-2x fa-fw fa-drupal"></i> <span class="hidden">Drupal</span></a>&nbsp;
+      
+      
+  </section>
+		<section class="copyright">&copy; 2017 <a href="https://www.teunvanveggel.nl">Teun van Veggel</a></section>
+	</div>
+</footer>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://www.teunvanveggel.nl/js/index.js"></script>
+<script src="https://www.teunvanveggel.nl/js/smooth-scroll.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+
+
+<script>
+    smoothScroll.init({
+        speed: 800,
+        easing: 'easeInOutCubic',
+        updateURL: false,
+        offset: 125,
+    });
+</script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+baseurl = "https://www.teunvanveggel.nl"
+languageCode = "en-us"
+title = "Teun van Veggel"
+theme = "nuezio2"
+disqusShortname = "nuez"
+# Enable Google Analytics be inserting your tracking code
+googleAnalytics = ""
+# Number of posts per page
+paginate = 10
+
+favicon = ""
+
+[params]
+	title = "Teun van Veggel - Freelance Drupal Consultant"
+	copyright = ""
+	subtitle = "and I am a Madrid based, freelance drupal consultant."
+	displaytitle = "Hi, I am Teun"
+    favicon = "/images/favicon.png"
+	# Link your social networks (optional)
+	location = "Madrid"
+	twitter = "@nuezweb"
+	linkedin = "teunvanveggel"
+	googleplus = ""
+	facebook = ""
+	instagram = ""
+	github = "nuez"
+	gitlab = ""
+	drupal = "nuez"
+	bitbucket = ""
+
+	# Customize or translate the strings
+	keepReadingStr = "Read more..."
+	backtotopStr = "Back to top"
+	shareStr = "Share"
+	pageNotFoundTitle = "404 - Page not found"
