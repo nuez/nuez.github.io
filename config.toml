@@ -1,4 +1,4 @@
-baseurl = "//nuez.io"
+baseurl = "http://nuez.io"
 languageCode = "en-us"
 title = "Teun van Veggel"
 theme = "nuezio2"

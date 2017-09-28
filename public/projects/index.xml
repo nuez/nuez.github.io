@@ -2,97 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Work on Teun van Veggel - Freelance Drupal Consultant</title>
-    <link>//nuez.io/projects/</link>
+    <link>http://nuez.io/projects/</link>
     <description>Recent content in Work on Teun van Veggel - Freelance Drupal Consultant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="//nuez.io/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://nuez.io/projects/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Flean</title>
-      <link>//nuez.io/projects/flean/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//nuez.io/projects/flean/</guid>
-      <description>https://www.fijnopvakantie.nl https://www.buitenbergen.nl  What started out as one of most successful holiday rental websites in the Netherlands, www.fijnopvakantie.nl, grew out to be a full-service, hosted holiday rental solution, currently serving than 20 holiday rental websites.
-The platform allows holiday park owners to increase revenue and improve conversion with a customizable, full-fledged solution taking care of bookings, processing availability (connecting to more than 10 different external booking services) and many other functionalities.</description>
-    </item>
     
     <item>
       <title>DrupalCamp Spain</title>
-      <link>//nuez.io/projects/drupalcamp/</link>
+      <link>http://nuez.io/projects/drupalcamp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//nuez.io/projects/drupalcamp/</guid>
+      <guid>http://nuez.io/projects/drupalcamp/</guid>
       <description>https://2017.drupalcamp.es https://github.com/AsociacionDrupalES/DrupalCampSpain https://www.lullabot.com/articles/a-successful-drupal-8-deployment  We developed the the DrupalCamp Spain website not only as a point of information for the DrupalCamp Spain 2017,but also as a blue print for future Drupal Camps and a case study for Best practices in Drupal 8. The code base is publicly accessible on Github
 The website is branched off the Drupal Composer project, meaning that all dependencies can be installed using Composer (including contributed modules and core), keeping the GIT repository for the project itself clean and tidy.</description>
     </item>
     
     <item>
       <title>Loesche</title>
-      <link>//nuez.io/projects/loesche/</link>
+      <link>http://nuez.io/projects/loesche/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//nuez.io/projects/loesche/</guid>
+      <guid>http://nuez.io/projects/loesche/</guid>
       <description> https://www.loesche.com  </description>
     </item>
     
     <item>
       <title>COIT &amp; AEIT</title>
-      <link>//nuez.io/projects/coit/</link>
+      <link>http://nuez.io/projects/coit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//nuez.io/projects/coit/</guid>
+      <guid>http://nuez.io/projects/coit/</guid>
       <description>www.coit.es www.aeit.es  The websites for the COIT (The ofical Spanish Institute of Telecommunication Engineers) and the AEIT (it&amp;rsquo;s sister member asociation) were designed and built from scratch, included complex migrations and ended up brimming with advanced restricted access functionalities and workflow automizations.</description>
     </item>
     
     <item>
       <title>EOI Business School</title>
-      <link>//nuez.io/projects/eoi/</link>
+      <link>http://nuez.io/projects/eoi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//nuez.io/projects/eoi/</guid>
+      <guid>http://nuez.io/projects/eoi/</guid>
       <description>www.eoi.es  For this project I was lead developer and product owner, working together with FrontID In the first phase of this project we defined and built a new, sustainable, architecture in Drupal and migrated hundreds of thousands of contents coming from LifeRay.
 The original, static HTML pages of the old website were migrated to dynamic and flexible pages: site editors can now create slideshows, tabs and accordions on the fly and drag and drop them freely into the design without any requiring programming knowledge.</description>
     </item>
     
     <item>
       <title>Midleton School</title>
-      <link>//nuez.io/projects/midleton/</link>
+      <link>http://nuez.io/projects/midleton/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//nuez.io/projects/midleton/</guid>
+      <guid>http://nuez.io/projects/midleton/</guid>
       <description>In the course of more than 5 years I&amp;rsquo;ve worked together with Midleton School to build custom solutions to improved workflows and save time and money.
 ###Download area I developed</description>
     </item>
     
     <item>
       <title>Ace In Art</title>
-      <link>//nuez.io/projects/aceinart/</link>
+      <link>http://nuez.io/projects/aceinart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//nuez.io/projects/aceinart/</guid>
+      <guid>http://nuez.io/projects/aceinart/</guid>
       <description> Custom Design and implementation using SASS Advanced workflow for published and moderated content www.aceinart.com  </description>
     </item>
     
     <item>
       <title>Crisnail</title>
-      <link>//nuez.io/projects/crisnail/</link>
+      <link>http://nuez.io/projects/crisnail/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//nuez.io/projects/crisnail/</guid>
+      <guid>http://nuez.io/projects/crisnail/</guid>
       <description>http://www.crisnail.com  We were responsible for both the design and development of this multilingual website for professional nail products Crisnail, featuring a product showcase and a restricted area for professionals to download instruction and publishing materials.
 It also features a dynamic Nail studio which generates images for different colors and styles automatically, using a custom programmed Drupal &amp;lsquo;Image style&amp;rsquo;.</description>
     </item>
     
     <item>
       <title>IBP Uniuso</title>
-      <link>//nuez.io/projects/uniuso/</link>
+      <link>http://nuez.io/projects/uniuso/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//nuez.io/projects/uniuso/</guid>
+      <guid>http://nuez.io/projects/uniuso/</guid>
       <description></description>
     </item>
     

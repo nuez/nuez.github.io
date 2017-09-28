@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pdf Generation on Teun van Veggel - Freelance Drupal Consultant</title>
-    <link>//nuez.io/tags/pdf-generation/</link>
+    <link>http://nuez.io/tags/pdf-generation/</link>
     <description>Recent content in Pdf Generation on Teun van Veggel - Freelance Drupal Consultant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="//nuez.io/tags/pdf-generation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://nuez.io/tags/pdf-generation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Midleton School</title>
-      <link>//nuez.io/projects/midleton/</link>
+      <link>http://nuez.io/projects/midleton/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//nuez.io/projects/midleton/</guid>
+      <guid>http://nuez.io/projects/midleton/</guid>
       <description>In the course of more than 5 years I&amp;rsquo;ve worked together with Midleton School to build custom solutions to improved workflows and save time and money.
 ###Download area I developed</description>
     </item>
