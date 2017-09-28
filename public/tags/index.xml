@@ -2,201 +2,201 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Teun van Veggel - Freelance Drupal Consultant</title>
-    <link>https://nuez.io/tags/</link>
+    <link>//nuez.io/tags/</link>
     <description>Recent content in Tags on Teun van Veggel - Freelance Drupal Consultant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 Aug 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://nuez.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//nuez.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Amazon Aws</title>
-      <link>https://nuez.io/tags/amazon-aws/</link>
+      <link>//nuez.io/tags/amazon-aws/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nuez.io/tags/amazon-aws/</guid>
+      <guid>//nuez.io/tags/amazon-aws/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Angular2</title>
-      <link>https://nuez.io/tags/angular2/</link>
+      <link>//nuez.io/tags/angular2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nuez.io/tags/angular2/</guid>
+      <guid>//nuez.io/tags/angular2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Best Practices</title>
-      <link>https://nuez.io/tags/best-practices/</link>
+      <link>//nuez.io/tags/best-practices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nuez.io/tags/best-practices/</guid>
+      <guid>//nuez.io/tags/best-practices/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Design</title>
-      <link>https://nuez.io/tags/design/</link>
+      <link>//nuez.io/tags/design/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nuez.io/tags/design/</guid>
+      <guid>//nuez.io/tags/design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Drupal</title>
-      <link>https://nuez.io/tags/drupal/</link>
+      <link>//nuez.io/tags/drupal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nuez.io/tags/drupal/</guid>
+      <guid>//nuez.io/tags/drupal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Drupal 7</title>
-      <link>https://nuez.io/tags/drupal-7/</link>
+      <link>//nuez.io/tags/drupal-7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nuez.io/tags/drupal-7/</guid>
+      <guid>//nuez.io/tags/drupal-7/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Drupal 8</title>
-      <link>https://nuez.io/tags/drupal-8/</link>
+      <link>//nuez.io/tags/drupal-8/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://nuez.io/tags/drupal-8/</guid>
+      <guid>//nuez.io/tags/drupal-8/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Drupal Composer</title>
-      <link>https://nuez.io/tags/drupal-composer/</link>
+      <link>//nuez.io/tags/drupal-composer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nuez.io/tags/drupal-composer/</guid>
+      <guid>//nuez.io/tags/drupal-composer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Entity</title>
-      <link>https://nuez.io/tags/entity/</link>
+      <link>//nuez.io/tags/entity/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://nuez.io/tags/entity/</guid>
+      <guid>//nuez.io/tags/entity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Field</title>
-      <link>https://nuez.io/tags/field/</link>
+      <link>//nuez.io/tags/field/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://nuez.io/tags/field/</guid>
+      <guid>//nuez.io/tags/field/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Golang</title>
-      <link>https://nuez.io/tags/golang/</link>
+      <link>//nuez.io/tags/golang/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://nuez.io/tags/golang/</guid>
+      <guid>//nuez.io/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>https://nuez.io/tags/hugo/</link>
+      <link>//nuez.io/tags/hugo/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://nuez.io/tags/hugo/</guid>
+      <guid>//nuez.io/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jenkins</title>
-      <link>https://nuez.io/tags/jenkins/</link>
+      <link>//nuez.io/tags/jenkins/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nuez.io/tags/jenkins/</guid>
+      <guid>//nuez.io/tags/jenkins/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Joomla To Drupal</title>
-      <link>https://nuez.io/tags/joomla-to-drupal/</link>
+      <link>//nuez.io/tags/joomla-to-drupal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nuez.io/tags/joomla-to-drupal/</guid>
+      <guid>//nuez.io/tags/joomla-to-drupal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Liferay To Drupal</title>
-      <link>https://nuez.io/tags/liferay-to-drupal/</link>
+      <link>//nuez.io/tags/liferay-to-drupal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nuez.io/tags/liferay-to-drupal/</guid>
+      <guid>//nuez.io/tags/liferay-to-drupal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Migration</title>
-      <link>https://nuez.io/tags/migration/</link>
+      <link>//nuez.io/tags/migration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nuez.io/tags/migration/</guid>
+      <guid>//nuez.io/tags/migration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Paragraphs</title>
-      <link>https://nuez.io/tags/paragraphs/</link>
+      <link>//nuez.io/tags/paragraphs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nuez.io/tags/paragraphs/</guid>
+      <guid>//nuez.io/tags/paragraphs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pdf Generation</title>
-      <link>https://nuez.io/tags/pdf-generation/</link>
+      <link>//nuez.io/tags/pdf-generation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nuez.io/tags/pdf-generation/</guid>
+      <guid>//nuez.io/tags/pdf-generation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Salesforce Integration</title>
-      <link>https://nuez.io/tags/salesforce-integration/</link>
+      <link>//nuez.io/tags/salesforce-integration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nuez.io/tags/salesforce-integration/</guid>
+      <guid>//nuez.io/tags/salesforce-integration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sendgrid</title>
-      <link>https://nuez.io/tags/sendgrid/</link>
+      <link>//nuez.io/tags/sendgrid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nuez.io/tags/sendgrid/</guid>
+      <guid>//nuez.io/tags/sendgrid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Smacss</title>
-      <link>https://nuez.io/tags/smacss/</link>
+      <link>//nuez.io/tags/smacss/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nuez.io/tags/smacss/</guid>
+      <guid>//nuez.io/tags/smacss/</guid>
       <description></description>
     </item>
     

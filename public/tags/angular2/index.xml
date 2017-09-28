@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Angular2 on Teun van Veggel - Freelance Drupal Consultant</title>
-    <link>https://nuez.io/tags/angular2/</link>
+    <link>//nuez.io/tags/angular2/</link>
     <description>Recent content in Angular2 on Teun van Veggel - Freelance Drupal Consultant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://nuez.io/tags/angular2/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//nuez.io/tags/angular2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Flean</title>
-      <link>https://nuez.io/projects/flean/</link>
+      <link>//nuez.io/projects/flean/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nuez.io/projects/flean/</guid>
+      <guid>//nuez.io/projects/flean/</guid>
       <description>https://www.fijnopvakantie.nl https://www.buitenbergen.nl  What started out as one of most successful holiday rental websites in the Netherlands, www.fijnopvakantie.nl, grew out to be a full-service, hosted holiday rental solution, currently serving than 20 holiday rental websites.
 The platform allows holiday park owners to increase revenue and improve conversion with a customizable, full-fledged solution taking care of bookings, processing availability (connecting to more than 10 different external booking services) and many other functionalities.</description>
     </item>

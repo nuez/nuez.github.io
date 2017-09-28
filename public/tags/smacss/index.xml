@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Smacss on Teun van Veggel - Freelance Drupal Consultant</title>
-    <link>https://nuez.io/tags/smacss/</link>
+    <link>//nuez.io/tags/smacss/</link>
     <description>Recent content in Smacss on Teun van Veggel - Freelance Drupal Consultant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://nuez.io/tags/smacss/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//nuez.io/tags/smacss/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Crisnail</title>
-      <link>https://nuez.io/projects/crisnail/</link>
+      <link>//nuez.io/projects/crisnail/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nuez.io/projects/crisnail/</guid>
+      <guid>//nuez.io/projects/crisnail/</guid>
       <description>http://www.crisnail.com  We were responsible for both the design and development of this multilingual website for professional nail products Crisnail, featuring a product showcase and a restricted area for professionals to download instruction and publishing materials.
 It also features a dynamic Nail studio which generates images for different colors and styles automatically, using a custom programmed Drupal &amp;lsquo;Image style&amp;rsquo;.</description>
     </item>
     
     <item>
       <title>IBP Uniuso</title>
-      <link>https://nuez.io/projects/uniuso/</link>
+      <link>//nuez.io/projects/uniuso/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nuez.io/projects/uniuso/</guid>
+      <guid>//nuez.io/projects/uniuso/</guid>
       <description></description>
     </item>
     

@@ -3,199 +3,199 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://nuez.io/projects/flean/</loc>
+    <loc>//nuez.io/projects/flean/</loc>
   </url>
   
   <url>
-    <loc>https://nuez.io/projects/drupalcamp/</loc>
+    <loc>//nuez.io/projects/drupalcamp/</loc>
   </url>
   
   <url>
-    <loc>https://nuez.io/projects/loesche/</loc>
+    <loc>//nuez.io/projects/loesche/</loc>
   </url>
   
   <url>
-    <loc>https://nuez.io/projects/coit/</loc>
+    <loc>//nuez.io/projects/coit/</loc>
   </url>
   
   <url>
-    <loc>https://nuez.io/projects/eoi/</loc>
+    <loc>//nuez.io/projects/eoi/</loc>
   </url>
   
   <url>
-    <loc>https://nuez.io/projects/midleton/</loc>
+    <loc>//nuez.io/projects/midleton/</loc>
   </url>
   
   <url>
-    <loc>https://nuez.io/</loc>
+    <loc>//nuez.io/</loc>
   </url>
   
   <url>
-    <loc>https://nuez.io/projects/aceinart/</loc>
+    <loc>//nuez.io/projects/aceinart/</loc>
   </url>
   
   <url>
-    <loc>https://nuez.io/projects/crisnail/</loc>
+    <loc>//nuez.io/projects/crisnail/</loc>
   </url>
   
   <url>
-    <loc>https://nuez.io/projects/uniuso/</loc>
+    <loc>//nuez.io/projects/uniuso/</loc>
   </url>
   
   <url>
-    <loc>https://nuez.io/posts/</loc>
+    <loc>//nuez.io/posts/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nuez.io/projects/</loc>
+    <loc>//nuez.io/projects/</loc>
   </url>
   
   <url>
-    <loc>https://nuez.io/testimonies/</loc>
+    <loc>//nuez.io/testimonies/</loc>
   </url>
   
   <url>
-    <loc>https://nuez.io/talks/</loc>
+    <loc>//nuez.io/talks/</loc>
   </url>
   
   <url>
-    <loc>https://nuez.io/contact/</loc>
+    <loc>//nuez.io/contact/</loc>
   </url>
   
   <url>
-    <loc>https://nuez.io/posts/computed-fields-drupal-8/</loc>
+    <loc>//nuez.io/posts/computed-fields-drupal-8/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nuez.io/posts/hugo-vs-drupal/</loc>
+    <loc>//nuez.io/posts/hugo-vs-drupal/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nuez.io/tags/amazon-aws/</loc>
+    <loc>//nuez.io/tags/amazon-aws/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nuez.io/tags/angular2/</loc>
+    <loc>//nuez.io/tags/angular2/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nuez.io/tags/best-practices/</loc>
+    <loc>//nuez.io/tags/best-practices/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nuez.io/categories/</loc>
+    <loc>//nuez.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nuez.io/tags/design/</loc>
+    <loc>//nuez.io/tags/design/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nuez.io/tags/drupal/</loc>
+    <loc>//nuez.io/tags/drupal/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nuez.io/tags/drupal-7/</loc>
+    <loc>//nuez.io/tags/drupal-7/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nuez.io/tags/drupal-8/</loc>
-    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nuez.io/tags/drupal-composer/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nuez.io/tags/entity/</loc>
+    <loc>//nuez.io/tags/drupal-8/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nuez.io/tags/field/</loc>
+    <loc>//nuez.io/tags/drupal-composer/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//nuez.io/tags/entity/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nuez.io/tags/golang/</loc>
+    <loc>//nuez.io/tags/field/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nuez.io/tags/hugo/</loc>
+    <loc>//nuez.io/tags/golang/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nuez.io/tags/jenkins/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nuez.io/tags/joomla-to-drupal/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nuez.io/tags/liferay-to-drupal/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nuez.io/tags/migration/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nuez.io/tags/paragraphs/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nuez.io/tags/pdf-generation/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nuez.io/tags/salesforce-integration/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nuez.io/tags/sendgrid/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nuez.io/tags/smacss/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nuez.io/tags/</loc>
+    <loc>//nuez.io/tags/hugo/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nuez.io/</loc>
+    <loc>//nuez.io/tags/jenkins/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//nuez.io/tags/joomla-to-drupal/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//nuez.io/tags/liferay-to-drupal/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//nuez.io/tags/migration/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//nuez.io/tags/paragraphs/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//nuez.io/tags/pdf-generation/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//nuez.io/tags/salesforce-integration/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//nuez.io/tags/sendgrid/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//nuez.io/tags/smacss/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//nuez.io/tags/</loc>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//nuez.io/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
