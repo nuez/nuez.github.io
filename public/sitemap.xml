@@ -3,199 +3,199 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.teunvanveggel.nl/projects/flean/</loc>
+    <loc>https://nuez.io/projects/flean/</loc>
   </url>
   
   <url>
-    <loc>https://www.teunvanveggel.nl/projects/drupalcamp/</loc>
+    <loc>https://nuez.io/projects/drupalcamp/</loc>
   </url>
   
   <url>
-    <loc>https://www.teunvanveggel.nl/projects/loesche/</loc>
+    <loc>https://nuez.io/projects/loesche/</loc>
   </url>
   
   <url>
-    <loc>https://www.teunvanveggel.nl/projects/coit/</loc>
+    <loc>https://nuez.io/projects/coit/</loc>
   </url>
   
   <url>
-    <loc>https://www.teunvanveggel.nl/projects/eoi/</loc>
+    <loc>https://nuez.io/projects/eoi/</loc>
   </url>
   
   <url>
-    <loc>https://www.teunvanveggel.nl/projects/midleton/</loc>
+    <loc>https://nuez.io/projects/midleton/</loc>
   </url>
   
   <url>
-    <loc>https://www.teunvanveggel.nl/</loc>
+    <loc>https://nuez.io/</loc>
   </url>
   
   <url>
-    <loc>https://www.teunvanveggel.nl/projects/aceinart/</loc>
+    <loc>https://nuez.io/projects/aceinart/</loc>
   </url>
   
   <url>
-    <loc>https://www.teunvanveggel.nl/projects/crisnail/</loc>
+    <loc>https://nuez.io/projects/crisnail/</loc>
   </url>
   
   <url>
-    <loc>https://www.teunvanveggel.nl/projects/uniuso/</loc>
+    <loc>https://nuez.io/projects/uniuso/</loc>
   </url>
   
   <url>
-    <loc>https://www.teunvanveggel.nl/posts/</loc>
+    <loc>https://nuez.io/posts/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.teunvanveggel.nl/projects/</loc>
+    <loc>https://nuez.io/projects/</loc>
   </url>
   
   <url>
-    <loc>https://www.teunvanveggel.nl/testimonies/</loc>
+    <loc>https://nuez.io/testimonies/</loc>
   </url>
   
   <url>
-    <loc>https://www.teunvanveggel.nl/talks/</loc>
+    <loc>https://nuez.io/talks/</loc>
   </url>
   
   <url>
-    <loc>https://www.teunvanveggel.nl/contact/</loc>
+    <loc>https://nuez.io/contact/</loc>
   </url>
   
   <url>
-    <loc>https://www.teunvanveggel.nl/posts/computed-fields-drupal-8/</loc>
+    <loc>https://nuez.io/posts/computed-fields-drupal-8/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.teunvanveggel.nl/posts/hugo-vs-drupal/</loc>
+    <loc>https://nuez.io/posts/hugo-vs-drupal/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.teunvanveggel.nl/tags/amazon-aws/</loc>
+    <loc>https://nuez.io/tags/amazon-aws/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.teunvanveggel.nl/tags/angular2/</loc>
+    <loc>https://nuez.io/tags/angular2/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.teunvanveggel.nl/tags/best-practices/</loc>
+    <loc>https://nuez.io/tags/best-practices/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.teunvanveggel.nl/categories/</loc>
+    <loc>https://nuez.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.teunvanveggel.nl/tags/design/</loc>
+    <loc>https://nuez.io/tags/design/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.teunvanveggel.nl/tags/drupal/</loc>
+    <loc>https://nuez.io/tags/drupal/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.teunvanveggel.nl/tags/drupal-7/</loc>
+    <loc>https://nuez.io/tags/drupal-7/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.teunvanveggel.nl/tags/drupal-8/</loc>
-    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.teunvanveggel.nl/tags/drupal-composer/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.teunvanveggel.nl/tags/entity/</loc>
+    <loc>https://nuez.io/tags/drupal-8/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.teunvanveggel.nl/tags/field/</loc>
+    <loc>https://nuez.io/tags/drupal-composer/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nuez.io/tags/entity/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.teunvanveggel.nl/tags/golang/</loc>
+    <loc>https://nuez.io/tags/field/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.teunvanveggel.nl/tags/hugo/</loc>
+    <loc>https://nuez.io/tags/golang/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.teunvanveggel.nl/tags/jenkins/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.teunvanveggel.nl/tags/joomla-to-drupal/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.teunvanveggel.nl/tags/liferay-to-drupal/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.teunvanveggel.nl/tags/migration/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.teunvanveggel.nl/tags/paragraphs/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.teunvanveggel.nl/tags/pdf-generation/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.teunvanveggel.nl/tags/salesforce-integration/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.teunvanveggel.nl/tags/sendgrid/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.teunvanveggel.nl/tags/smacss/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.teunvanveggel.nl/tags/</loc>
+    <loc>https://nuez.io/tags/hugo/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.teunvanveggel.nl/</loc>
+    <loc>https://nuez.io/tags/jenkins/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nuez.io/tags/joomla-to-drupal/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nuez.io/tags/liferay-to-drupal/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nuez.io/tags/migration/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nuez.io/tags/paragraphs/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nuez.io/tags/pdf-generation/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nuez.io/tags/salesforce-integration/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nuez.io/tags/sendgrid/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nuez.io/tags/smacss/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nuez.io/tags/</loc>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nuez.io/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

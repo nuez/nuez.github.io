@@ -5,174 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96aa1971-9244-41da-9aea-6470ff0adf36" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/categories/development/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/categories/development/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/categories/development/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/categories/golang/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/categories/golang/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/categories/golang/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/categories/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/categories/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/contact/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/css/github.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/css/screen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/icons.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/icons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/icons.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/images/aceinart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/images/aceinart_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/images/coit.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/images/coit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/images/coit_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/images/crisnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/images/crisnail_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/images/drupalcamp.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/images/drupalcamp_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/images/eoi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/images/eoi_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/images/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/images/flean.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/images/flean_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/images/loesche.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/images/loesche_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/images/midleton.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/images/midleton_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/images/uniuso.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/images/uniuso_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/appletouchicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/avatar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/smooth-scroll.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/posts/computed-fields-drupal-8/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/posts/creating-a-new-theme/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/posts/goisforlovers/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/posts/hugo-vs-drupal/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/posts/hugoisforlovers/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/posts/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/posts/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/posts/migrate-from-jekyll/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/posts/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/posts/whatever-blogpost-about-cat/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects/aceinart/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects/coit/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects/crisnail/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects/drupalcamp/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects/eoi/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects/flean/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects/loesche/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects/midleton/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects/project3/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects/project4/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects/uniuso/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/sitemap.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/amazon-aws/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/amazon-aws/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/amazon-aws/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/angular2/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/angular2/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/angular2/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/best-practices/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/best-practices/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/best-practices/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/bla/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/bla/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/bla/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/bootstrap/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/bootstrap/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/bootstrap/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/design/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/design/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/design/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/development/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/development/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/development/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/drupal-7/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/drupal-7/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/drupal-7/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/drupal-8/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/drupal-8/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/drupal-8/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/drupal-composer/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/drupal-composer/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/drupal-composer/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/drupal/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/drupal/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/drupal/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/entity/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/entity/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/entity/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/field/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/field/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/field/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/go/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/go/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/go/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/golang/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/golang/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/golang/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/highlight-js/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/highlight-js/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/highlight-js/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/hugo/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/hugo/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/hugo/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/jenkins/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/jenkins/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/jenkins/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/joomla-to-drupal/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/joomla-to-drupal/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/joomla-to-drupal/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/liferay-to-drupal/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/liferay-to-drupal/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/liferay-to-drupal/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/migration/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/migration/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/migration/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/paragraphs/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/paragraphs/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/paragraphs/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/pdf-generation/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/pdf-generation/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/pdf-generation/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/responsive/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/responsive/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/responsive/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/salesforce-integration/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/salesforce-integration/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/salesforce-integration/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/sendgrid/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/sendgrid/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/sendgrid/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/smacss/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/smacss/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/smacss/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/syntax-highlighting/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/syntax-highlighting/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/syntax-highlighting/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/templates/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/templates/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/templates/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/test/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/test/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/test/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/themes/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/themes/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/themes/page/1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/talks/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/testimonies/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.toml" afterPath="$PROJECT_DIR$/config.toml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -240,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="computed-fields-drupal-8.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="computed-fields-drupal-8.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/posts/computed-fields-drupal-8.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -249,6 +82,16 @@
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.toml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config.toml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -354,7 +197,6 @@
         <option value="$PROJECT_DIR$/themes/nuezio2/layouts/_default/baseof.html" />
         <option value="$PROJECT_DIR$/themes/nuezio2/layouts/partials/footer.html" />
         <option value="$PROJECT_DIR$/themes/nuezio2/layouts/partials/social.html" />
-        <option value="$PROJECT_DIR$/config.toml" />
         <option value="$PROJECT_DIR$/themes/nuezio2/layouts/_default/list.html" />
         <option value="$PROJECT_DIR$/content/talks.md" />
         <option value="$PROJECT_DIR$/content/contact.md" />
@@ -379,6 +221,7 @@
         <option value="$PROJECT_DIR$/content/projects/_index.md" />
         <option value="$PROJECT_DIR$/content/posts/_index.md" />
         <option value="$PROJECT_DIR$/content/posts/computed-fields-drupal-8.md" />
+        <option value="$PROJECT_DIR$/config.toml" />
       </list>
     </option>
   </component>
@@ -397,7 +240,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1979" />
+    <option name="x" value="59" />
     <option name="y" value="-8" />
     <option name="width" value="1862" />
     <option name="height" value="1089" />
@@ -443,10 +286,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nuezio2" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -613,15 +452,16 @@
       <workItem from="1506323744156" duration="11266000" />
       <workItem from="1506426632040" duration="115000" />
       <workItem from="1506493002110" duration="3589000" />
-      <workItem from="1506504806177" duration="13045000" />
+      <workItem from="1506504806177" duration="13443000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203045000" />
+    <option name="totallyTimeSpent" value="203443000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1979" y="-8" width="1862" height="1089" extended-state="6" />
+    <frame x="59" y="-8" width="1862" height="1089" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16757345" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -629,7 +469,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5250522" sideWeight="0.48258978" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5250522" sideWeight="0.48258978" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -970,13 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/teunvanveggel.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1026,6 +859,14 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
