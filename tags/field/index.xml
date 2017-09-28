@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Field on Teun van Veggel - Freelance Drupal Consultant</title>
-    <link>https://nuez.io/tags/field/</link>
+    <link>//nuez.io/tags/field/</link>
     <description>Recent content in Field on Teun van Veggel - Freelance Drupal Consultant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 Aug 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://nuez.io/tags/field/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//nuez.io/tags/field/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Create computed fields in Drupal 8</title>
-      <link>https://nuez.io/posts/computed-fields-drupal-8/</link>
+      <link>//nuez.io/posts/computed-fields-drupal-8/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://nuez.io/posts/computed-fields-drupal-8/</guid>
+      <guid>//nuez.io/posts/computed-fields-drupal-8/</guid>
       <description>In Drupal 7 it was possible to add computed properties to entities using a simple hook. Those properties would then become available to modules like Search API and Views. How do computed fields work in Drupal 8 and do they have the same level of maturity? 
 In Drupal 8 we can distinguish between field types that have some computed properties and on the other hand fields that are fully computed.</description>
     </item>
