@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paragraphs on Teun van Veggel - Freelance Drupal Consultant</title>
-    <link>//nuez.io/tags/paragraphs/</link>
+    <link>http://nuez.io/tags/paragraphs/</link>
     <description>Recent content in Paragraphs on Teun van Veggel - Freelance Drupal Consultant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="//nuez.io/tags/paragraphs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://nuez.io/tags/paragraphs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Loesche</title>
-      <link>//nuez.io/projects/loesche/</link>
+      <link>http://nuez.io/projects/loesche/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//nuez.io/projects/loesche/</guid>
+      <guid>http://nuez.io/projects/loesche/</guid>
       <description> https://www.loesche.com  </description>
     </item>
     

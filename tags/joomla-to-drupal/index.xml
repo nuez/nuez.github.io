@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Joomla To Drupal on Teun van Veggel - Freelance Drupal Consultant</title>
-    <link>//nuez.io/tags/joomla-to-drupal/</link>
+    <link>http://nuez.io/tags/joomla-to-drupal/</link>
     <description>Recent content in Joomla To Drupal on Teun van Veggel - Freelance Drupal Consultant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="//nuez.io/tags/joomla-to-drupal/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://nuez.io/tags/joomla-to-drupal/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>COIT &amp; AEIT</title>
-      <link>//nuez.io/projects/coit/</link>
+      <link>http://nuez.io/projects/coit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//nuez.io/projects/coit/</guid>
+      <guid>http://nuez.io/projects/coit/</guid>
       <description>www.coit.es www.aeit.es  The websites for the COIT (The ofical Spanish Institute of Telecommunication Engineers) and the AEIT (it&amp;rsquo;s sister member asociation) were designed and built from scratch, included complex migrations and ended up brimming with advanced restricted access functionalities and workflow automizations.</description>
     </item>
     

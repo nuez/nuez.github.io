@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Design on Teun van Veggel - Freelance Drupal Consultant</title>
-    <link>//nuez.io/tags/design/</link>
+    <link>http://nuez.io/tags/design/</link>
     <description>Recent content in Design on Teun van Veggel - Freelance Drupal Consultant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="//nuez.io/tags/design/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://nuez.io/tags/design/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ace In Art</title>
-      <link>//nuez.io/projects/aceinart/</link>
+      <link>http://nuez.io/projects/aceinart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//nuez.io/projects/aceinart/</guid>
+      <guid>http://nuez.io/projects/aceinart/</guid>
       <description> Custom Design and implementation using SASS Advanced workflow for published and moderated content www.aceinart.com  </description>
     </item>
     
     <item>
       <title>Crisnail</title>
-      <link>//nuez.io/projects/crisnail/</link>
+      <link>http://nuez.io/projects/crisnail/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//nuez.io/projects/crisnail/</guid>
+      <guid>http://nuez.io/projects/crisnail/</guid>
       <description>http://www.crisnail.com  We were responsible for both the design and development of this multilingual website for professional nail products Crisnail, featuring a product showcase and a restricted area for professionals to download instruction and publishing materials.
 It also features a dynamic Nail studio which generates images for different colors and styles automatically, using a custom programmed Drupal &amp;lsquo;Image style&amp;rsquo;.</description>
     </item>
     
     <item>
       <title>IBP Uniuso</title>
-      <link>//nuez.io/projects/uniuso/</link>
+      <link>http://nuez.io/projects/uniuso/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//nuez.io/projects/uniuso/</guid>
+      <guid>http://nuez.io/projects/uniuso/</guid>
       <description></description>
     </item>
     
