@@ -28,8 +28,6 @@ With Drupal, or any other server-side framework or CMS, you don't request the HT
 
 You can imagine that no matter how many caches you enable on Drupal, nothing will be faster than just returning static HTML.
 
-~~Hugo itself built in GoLang meaning that it's available as a precompiled binary that you can download an run on any computer with any OS. No installation, no gems, modules or dependencies are required. Another advantage of being written in GoLang, is that Hugo is fast. Very fast.~~
-
 ### How do you edit and create content?
  
 With Hugo you can create your content on your local machine using any text or code editor; no need to login to any website. The articles you write go in text files organised in folders and are typically written in **MarkDown**, a widely used - super simple - *MarkUp* language. Hugo will collect the articles in the different folders to generate the menus, summary lists and taxonomy pages and turn them into static HTML pages.

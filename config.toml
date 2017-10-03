@@ -11,9 +11,9 @@ paginate = 10
 favicon = ""
 
 [params]
-	title = "Teun van Veggel/nuez.io - Freelance Drupal Consultant"
+	title = "Teun van Veggel/nuez.io - Freelance Drupal developer"
 	copyright = ""
-	subtitle = "and I am a Madrid based, freelance drupal consultant."
+	subtitle = "and I am a Madrid based, freelance drupal developer."
 	displaytitle = "Hi, I am Teun"
     favicon = "/images/favicon.png"
 	# Link your social networks (optional)
