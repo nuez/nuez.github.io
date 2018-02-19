@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Teun van Veggel | Nuez | Independent Drupal Developer on Hi, I am Teun</title>
+    <title>Teun van Veggel | Nuez | Independent Drupal Developer on Hi, I am Teun [nuez]</title>
     <link>/</link>
-    <description>Recent content in Teun van Veggel | Nuez | Independent Drupal Developer on Hi, I am Teun</description>
+    <description>Recent content in Teun van Veggel | Nuez | Independent Drupal Developer on Hi, I am Teun [nuez]</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 23 Jul 2015 00:00:00 +0000</lastBuildDate>
@@ -79,15 +79,15 @@ The original, static HTML pages of the old website were migrated to dynamic and 
       <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/posts/calendar-for-freelancers/</guid>
-      <description>&lt;p&gt;As a freelancer I like my (potential) clients to be aware of my availability, so we both don&amp;rsquo;t waste our time. To make the calendar as hassle-free as possible I wanted integrate it with Google Calendar, so all it would take is to fill in my availability there.&lt;/p&gt;
+      <description>&lt;p&gt;As a freelancer I like my (potential) clients to be aware of my availability. I decided to build something that would allow me to fill in my availability in Google Calendar, which would then be displayed in a nice widget on the website.&lt;/p&gt;
 
-&lt;p&gt;All I need is a simple view of a calendar, without details of each event: just whether or not I am available for work. I figured that the good ol&amp;rsquo; jQuery Datepicker would do just fine.&lt;/p&gt;
+&lt;p&gt;The widget doesn&amp;rsquo;t need to display anything but whether or not I am available or busy on a certain day. I figured that the good ol&amp;rsquo; jQuery Datepicker would do perfectly.&lt;/p&gt;
 
 &lt;p&gt;So here&amp;rsquo;s what I did.&lt;/p&gt;
 
 &lt;h3 id=&#34;1-get-an-api-key&#34;&gt;1. Get an API Key.&lt;/h3&gt;
 
-&lt;p&gt;Although most of the documentation you find online about authenticating for Google APIs is about OAUTH2 and complicated authentication flows, authenticating for publicly accessible Google content is really simple: all you need is an API key.&lt;/p&gt;
+&lt;p&gt;When you google for accessing the Google API, most forums will point you in the direction of the OAUTH2 protocol. Using OAuth would be necessary if we wanted to access restricted content. For accessing publicly accessible content, the Google API is a lot easier. All you need is an URL and an API key.&lt;/p&gt;
 
 &lt;p&gt;Go to &lt;a href=&#34;https://console.developers.google.com&#34;&gt;https://console.developers.google.com&lt;/a&gt; and create a new project. Select &lt;code&gt;credentials&lt;/code&gt; and create an &lt;em&gt;API Key&lt;/em&gt;.  You can restrict the use of the key although you don&amp;rsquo;t have to. Copy the API key value somewhere: we&amp;rsquo;ll need it in our code.&lt;/p&gt;
 
@@ -101,7 +101,7 @@ The original, static HTML pages of the old website were migrated to dynamic and 
       
       <guid>/posts/computed-fields-drupal-8/</guid>
       <description>In Drupal 8 we can distinguish between field types that have some computed properties and on the other hand fields that are fully computed.
-The former is quite common in Drupal 8: several field type definitions have computed properties alongside other properties that are stored in the database. For example the TextItem field type stores the value and the format in the database, but a third property processed is computed on the fly: it parses the raw text value using a format resulting in the processed value.</description>
+The former is quite common in Drupal 8: several field type definitions have computed properties alongside other properties that are stored in the database. For example the TextItem field type stores the value and the format in the database, but a third property processed is computed on the fly.</description>
     </item>
     
     <item>

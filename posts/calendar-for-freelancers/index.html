@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-	<title>How to build a super simple availability calendar. &middot; Hi, I am Teun</title>
+	<title>How to build a super simple availability calendar. &middot; Hi, I am Teun [nuez]</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Teun van Veggel">
@@ -38,7 +38,7 @@
     <a href="/"><div class="photo"></div>
     </a>
     <div class="site-title">
-        <a href="/">Hi, I am Teun</a>
+        <a href="/">Hi, I am Teun [nuez]</a>
     </div>
 
     <div class="site-description">
@@ -148,15 +148,15 @@
     </header>
     
     <section class="post-content">
-        <p>As a freelancer I like my (potential) clients to be aware of my availability, so we both don&rsquo;t waste our time. To make the calendar as hassle-free as possible I wanted integrate it with Google Calendar, so all it would take is to fill in my availability there.</p>
+        <p>As a freelancer I like my (potential) clients to be aware of my availability. I decided to build something that would allow me to fill in my availability in Google Calendar, which would then be displayed in a nice widget on the website.</p>
 
-<p>All I need is a simple view of a calendar, without details of each event: just whether or not I am available for work. I figured that the good ol&rsquo; jQuery Datepicker would do just fine.</p>
+<p>The widget doesn&rsquo;t need to display anything but whether or not I am available or busy on a certain day. I figured that the good ol&rsquo; jQuery Datepicker would do perfectly.</p>
 
 <p>So here&rsquo;s what I did.</p>
 
 <h3 id="1-get-an-api-key">1. Get an API Key.</h3>
 
-<p>Although most of the documentation you find online about authenticating for Google APIs is about OAUTH2 and complicated authentication flows, authenticating for publicly accessible Google content is really simple: all you need is an API key.</p>
+<p>When you google for accessing the Google API, most forums will point you in the direction of the OAUTH2 protocol. Using OAuth would be necessary if we wanted to access restricted content. For accessing publicly accessible content, the Google API is a lot easier. All you need is an URL and an API key.</p>
 
 <p>Go to <a href="https://console.developers.google.com">https://console.developers.google.com</a> and create a new project. Select <code>credentials</code> and create an <em>API Key</em>.  You can restrict the use of the key although you don&rsquo;t have to. Copy the API key value somewhere: we&rsquo;ll need it in our code.</p>
 
@@ -227,19 +227,15 @@
 });
 </code></pre>
 
-<p>Fill in the two calendar IDS and your API Key.</p>
-
-<p>On StackOverflow there is loads of information about accessing the Google API using OAUTH2, that one might forget that to access public information all we need is calling a URL: <code>https://www.googleapis.com/calendar/v3/calendars/&quot; + calendar_id + &quot;/events?key=&quot; + api_key</code></p>
-
-<p>We do have to pass our api_key so Google can track the use of their API (and limit it if necessary).</p>
-
-<p>Once we have our event, we add classes to the days in the calendar accordingly, so we can theme it in CSS.</p>
+<p>Fill in the two calendar IDS and your API Key. The script basically fetches the events of one &lsquo;busy&rsquo; calendar I created and one &lsquo;free&rsquo; calendar, and adds classes to our jQuery widget for both.</p>
 
 <h3 id="5-add-the-necessary-css">5. Add the necessary CSS.</h3>
 
-<p>In my case I chose to render the DatePicker widget without any shipped CSS: I added the necessary theming myself.</p>
+<p>In my case I chose to render the DatePicker widget without any shipped CSS: I just added the necessary styling myself.</p>
 
-<p>You can see the example <a href="/contact">here</a>.</p>
+<p>This is the result:</p>
+
+<div id="datepicker"></div>
         
             <div id="disqus_thread"></div>
 <script>

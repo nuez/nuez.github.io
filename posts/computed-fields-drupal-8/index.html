@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-	<title>Create computed fields in Drupal 8. &middot; Hi, I am Teun</title>
+	<title>Create computed fields in Drupal 8. &middot; Hi, I am Teun [nuez]</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Teun van Veggel">
@@ -38,7 +38,7 @@
     <a href="/"><div class="photo"></div>
     </a>
     <div class="site-title">
-        <a href="/">Hi, I am Teun</a>
+        <a href="/">Hi, I am Teun [nuez]</a>
     </div>
 
     <div class="site-description">
@@ -152,7 +152,7 @@
 
 <p>In Drupal 8 we can distinguish between field types that have some computed <strong>properties</strong> and on the other hand fields that are fully computed.</p>
 
-<p>The former is quite common in Drupal 8: several field type definitions have computed properties alongside other properties that are stored in the database. For example the <code>TextItem</code> field type stores the <code>value</code> and the <code>format</code> in the database, but a third property <code>processed</code> is computed on the fly: it parses the raw text <em>value</em> using a <em>format</em> resulting in the <em>processed</em> value. Another example is the <code>entity</code> property on the EntityReferenceItem field type, which &lsquo;computes&rsquo; the full entity based on the <code>target_id</code> property that is saved to the database.</p>
+<p>The former is quite common in Drupal 8: several field type definitions have computed properties alongside other properties that are stored in the database. For example the <code>TextItem</code> field type stores the <code>value</code> and the <code>format</code> in the database, but a third property <code>processed</code> is computed on the fly.</p>
 
 <p>creating field definitions based on existing field types that don&rsquo;t store data to the database but are entirely computed. The only example of this in core that I have been able to find is the <code>moderation_state</code> field in the <em>Content Moderation</em> module in core.</p>
 
