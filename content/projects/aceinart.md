@@ -4,7 +4,7 @@ description: "AceInArt is an agency for Art website was designed and built from 
 image: "aceinart.png"
 background: "aceinart_bg.png"
 draft: true
-date: 2017-5-01
+date: 2017-05-01
 ---
 
 - Custom Design and implementation using SASS
