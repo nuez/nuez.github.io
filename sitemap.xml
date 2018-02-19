@@ -3,186 +3,144 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://nuez.io/projects/drupalcamp/</loc>
+    <loc>/</loc>
+    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://nuez.io/projects/loesche/</loc>
+    <loc>/projects/delft/</loc>
+    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://nuez.io/projects/coit/</loc>
+    <loc>/projects/flean/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://nuez.io/projects/eoi/</loc>
+    <loc>/projects/eoi/</loc>
+    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://nuez.io/projects/midleton/</loc>
+    <loc>/projects/midleton/</loc>
+    <lastmod>2017-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://nuez.io/</loc>
+    <loc>/testimonies/</loc>
+    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://nuez.io/projects/aceinart/</loc>
+    <loc>/posts/</loc>
+    <lastmod>2018-02-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://nuez.io/projects/crisnail/</loc>
+    <loc>/projects/</loc>
+    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://nuez.io/projects/uniuso/</loc>
+    <loc>/talks/</loc>
+    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://nuez.io/posts/</loc>
+    <loc>/posts/calendar-for-freelancers/</loc>
+    <lastmod>2018-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/computed-fields-drupal-8/</loc>
+    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/hugo-vs-drupal/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://nuez.io/projects/</loc>
+    <loc>/contact/</loc>
   </url>
   
   <url>
-    <loc>http://nuez.io/testimonies/</loc>
+    <loc>/projects/drupalcamp/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://nuez.io/talks/</loc>
+    <loc>/projects/loesche/</loc>
+    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://nuez.io/contact/</loc>
+    <loc>/projects/coit/</loc>
+    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://nuez.io/posts/computed-fields-drupal-8/</loc>
-    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://nuez.io/posts/hugo-vs-drupal/</loc>
-    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://nuez.io/tags/amazon-aws/</loc>
+    <loc>/tags/amazon-aws/</loc>
+    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://nuez.io/tags/best-practices/</loc>
+    <loc>/tags/best-practices/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://nuez.io/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://nuez.io/tags/design/</loc>
+    <loc>/projects/crisnail/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/drupal/</loc>
+    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://nuez.io/tags/drupal/</loc>
+    <loc>/tags/drupal-8/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://nuez.io/tags/drupal-7/</loc>
+    <loc>/tags/drupal-composer/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://nuez.io/tags/drupal-8/</loc>
-    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+    <loc>/tags/jenkins/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://nuez.io/tags/drupal-composer/</loc>
+    <loc>/tags/liferay-to-drupal/</loc>
+    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://nuez.io/tags/entity/</loc>
-    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+    <loc>/tags/salesforce-integration/</loc>
+    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://nuez.io/tags/field/</loc>
-    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://nuez.io/tags/golang/</loc>
-    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://nuez.io/tags/hugo/</loc>
-    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://nuez.io/tags/jenkins/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://nuez.io/tags/joomla-to-drupal/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://nuez.io/tags/liferay-to-drupal/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://nuez.io/tags/migration/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://nuez.io/tags/paragraphs/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://nuez.io/tags/pdf-generation/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://nuez.io/tags/salesforce-integration/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://nuez.io/tags/smacss/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://nuez.io/tags/</loc>
-    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://nuez.io/</loc>
-    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+    <loc>/tags/</loc>
+    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,169 +1,160 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Create computed fields in Drupal 8. &middot; Hi, I am Teun</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Teun van Veggel">
+	<meta name="description" content="I am an independent **Drupal specialist** with over 7 years of experience building websites and web applications.">
+	<meta name="keywords" content="drupal, web development">
+	<meta name="generator" content="Hugo 0.36" />
 
-    <title>Create computed fields in Drupal 8 &middot; Teun van Veggel/nuez.io - Freelance Drupal developer</title>
-    
-    
-    <meta name="generator" content="Hugo 0.25.1" />
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.0/normalize.css">
+	<link rel="stylesheet" href="/css/main.css">
 
-    <!-- RSS autodiscovery -->
-    
+	<!--Favicon-->
+	<link rel="shortcut icon" href="//images/favicon.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<!-- RSS -->
+	
 
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="http://nuez.io/css/screen.css">
-    <link rel="stylesheet" href="http://nuez.io/css/github.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/default.min.css">
+	<!-- Font Awesome -->
+	<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/googlecode.min.css">
-    
+	<!-- Google Fonts -->
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="/js/script.js"></script>
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/agate.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
 
-    
-    <link rel="shortcut icon" type="image/x-icon" href="http://nuez.io/images/favicon.png">
-    <link rel="icon" type="image/x-icon" href="http://nuez.io/images/favicon.png">
-    
 </head>
 
 <body>
-<aside>
-  <i class="menu-trigger fa fa-close" aria-hidden="true"></i>
-  
+	<div class="branding">
+    <a href="/"><div class="photo"></div>
+    </a>
+    <div class="site-title">
+        <a href="/">Hi, I am Teun</a>
+    </div>
+
+    <div class="site-description">
+    I am an independent <strong>Drupal specialist</strong> with over 7 years of experience building websites and web applications.
+    </div>
+
+    <a href="/contact" class="btn">Hire me</a>
+</div>
+	<button class="hamburger hamburger--collapse" type="button">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+</button>
+<header class="site-header">
+    
+
+    <nav class="site-nav">
+        <ul>
+            <li><a  href="/posts/"> Posts </a></li><li><a  href="/projects/"> Projects </a></li><li><a  href="/testimonies/"> Quotes </a></li><li><a  href="/talks/"> Talks </a></li><li><a  href="/contact/"> Hire me </a></li>
+            <li>
+                <ul>
+                    
+
+<li class="icon">
+	<a href="/index.xml" title="Subcribe">
+		<i class="fa fa-fw fa-rss"></i>
+	</a>
+</li>
+
+<li class="icon">
+	<a href="mailto:teun@nuezweb.com" title="Email">
+		<i class="fa fa-fw fa-envelope"></i>
+	</a>
+</li>
 
 
-<nav class="menu" role="nav">
-    <ul>
-        
 
-      <li ><a href="/"> Teun van Veggel/nuez.io </a> </li>
 
-      
 
-      <li class="active"><a href="/posts/"> Posts </a> </li>
 
-      
 
-      <li ><a href="/projects/"> Work </a> </li>
 
-      
 
-      <li ><a href="/testimonies/"> Quotes </a> </li>
 
-      
 
-      <li ><a href="/talks/"> Talks </a> </li>
+<li class="icon">
+	<a href="https://github.com/nuez" title="GitHub">
+		<i class="fa fa-fw fa-github"></i>
+	</a>
+</li>
 
-      
 
-      <li ><a href="/contact/"> Hire me </a> </li>
 
-      
-    </ul>
-</nav>
 
-  <section class="footer-social">
-      
-      <a href="//twitter.com/@nuezweb" target="_blank" title="Twitter"><i class="fa fa-2x fa-fw fa-twitter"></i> <span class="hidden">Twitter</span></a>&nbsp;
-      
-      
-      <a href="//www.linkedin.com/in/teunvanveggel" target="_blank" title="linkedIn"><i class="fa fa-2x fa-fw fa-linkedin"></i> <span class="hidden">LinkedIn</span></a>&nbsp;
-      
-      
-      
-      
-      
-      <a href="//github.com/nuez" target="_blank" title="GitHub"><i class="fa fa-2x fa-fw fa-github"></i> <span class="hidden">GitHub</span></a>&nbsp;
-      
-      
-      
-      
-      <a href="//drupal.org/u/nuez" target="_blank" title="Bitbucket"><i
-        class="fa fa-2x fa-fw fa-drupal"></i> <span class="hidden">Drupal</span></a>&nbsp;
-      
-      
-  </section>
-</aside>
-<header id="site-head">
+
+<li class="icon">
+	<a href="https://www.linkedin.com/in/teunvanveggel" title="LinkedIn">
+		<i class="fa fa-fw fa-linkedin"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="icon">
+	<a href="https://twitter.com/nuezweb" title="Twitter">
+		<i class="fa fa-fw fa-twitter"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+                </ul>
+            </li>
+        </ul>
+    </nav>
 </header>
-<main class="content" role="main">
-  <i class="menu-trigger fa fa-bars" aria-hidden="true"></i>
-
-  
-<article class="posts">
 
 
-
-  
-  <header >
-    <div class="inner">
-      <h1>
-      Create computed fields in Drupal 8</h1>
-      <div class="subtitle">
+	<div class="content">
+		<article>
+    <header>
         
-      </div>
-      
-      <div class="post-meta subtitle">
-        <time datetime=" 01 August 2017 ">
-        01 August 2017
-        </time>
-      </div>
-    </div>
+        <h1 class="title">Create computed fields in Drupal 8.</h1>
+        <div class="meta">
+	
+	<span class="date">October 1, 2017</span> &middot; 4 minute read
+	
+</div>
+
+        
+    </header>
     
-
-    <section class="sharetop">
-          <a href="http://twitter.com/share?text=Create%20computed%20fields%20in%20Drupal%208&url=http%3a%2f%2fnuez.io%2fposts%2fcomputed-fields-drupal-8%2f" title="Share on Twitter"
-        onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-        <i class="fa fa-2x fa-fw fa-twitter-square"></i> <span class="hidden"></span>
-    </a>
-    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fnuez.io%2fposts%2fcomputed-fields-drupal-8%2f" title="Share on Facebook"
-        onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-        <i class="fa fa-2x fa-fw fa-facebook-square" style="margin-left: -8px"></i> <span class="hidden"></span>
-    </a>
-    <a href="https://plus.google.com/share?url=http%3a%2f%2fnuez.io%2fposts%2fcomputed-fields-drupal-8%2f" title="Share on Google+"
-       onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-        <i class="fa fa-2x fa-fw fa-google-plus-square" style="margin-left: -8px"></i> <span class="hidden"></span>
-    </a>
-    </section>
-  </header>
-
-  
-  <section class="post-tags">
-    <div class="post-meta tags">
-      
-      
-      <span>Drupal 8 </span>
-      
-      
-      <span>Entity </span>
-      
-      
-      <span>Field </span>
-      
-    </div>
-  </section>
-  
-
-
-  <section class="post-content">
-    
-
-    
-
-<p><p class="big">
-In Drupal 7 it was possible to add computed properties to entities using a simple hook. Those properties would then become available to modules like Search API and Views. How do computed fields work in Drupal 8 and do they have the same level of maturity?
-</div></p>
+    <section class="post-content">
+        
 
 <p>In Drupal 8 we can distinguish between field types that have some computed <strong>properties</strong> and on the other hand fields that are fully computed.</p>
 
 <p>The former is quite common in Drupal 8: several field type definitions have computed properties alongside other properties that are stored in the database. For example the <code>TextItem</code> field type stores the <code>value</code> and the <code>format</code> in the database, but a third property <code>processed</code> is computed on the fly: it parses the raw text <em>value</em> using a <em>format</em> resulting in the <em>processed</em> value. Another example is the <code>entity</code> property on the EntityReferenceItem field type, which &lsquo;computes&rsquo; the full entity based on the <code>target_id</code> property that is saved to the database.</p>
 
-<p>This blog post is about the latter: creating field definitions based on existing field types that don&rsquo;t store data to the database but are entirely computed. The only example of this in core that I have been able to find is the <code>moderation_state</code> field in the <em>Content Moderation</em> module in core.</p>
+<p>creating field definitions based on existing field types that don&rsquo;t store data to the database but are entirely computed. The only example of this in core that I have been able to find is the <code>moderation_state</code> field in the <em>Content Moderation</em> module in core.</p>
 
 <h2 id="so-how-does-it-work">So how does it work?</h2>
 
@@ -171,7 +162,7 @@ In Drupal 7 it was possible to add computed properties to entities using a simpl
 
 <p>First we need to add a base class and set the <code>setComputed()</code> and <code>setClass</code> setters. The field is computed so we don&rsquo;t need it on the node form, but we do need it to show on the node view settings in order to change the display settings. For that we use the <code>-&gt;setDisplayOptions()</code> and <code>-&gt;setDisplayConfigurable</code> setters.</p>
 
-<pre><code>/**
+<pre><code class="language-php">/**
  * Implements hook_entity_base_field_info_alter().
  */
 function your_module_entity_base_field_info_alter(&amp;$fields, EntityTypeInterface $entity_type) {
@@ -271,31 +262,8 @@ function your_module_views_data_alter(array &amp;$data) {
 
 <p>Computed fields widely used nor documented very clearly yet, but it&rsquo;s there, mostly working, and will have many use cases for example when using Drupal as an API or SAAS.</p>
 
-    
-  </section>
-
-  
-
-  <section class="share">
-        <p class="info prompt">Share</p>
-    <a href="http://twitter.com/share?text=Create%20computed%20fields%20in%20Drupal%208&url=http%3a%2f%2fnuez.io%2fposts%2fcomputed-fields-drupal-8%2f" title="Share on Twitter"
-        onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-        <i class="fa fa-2x fa-fw fa-twitter-square"></i> <span class="hidden">Twitter</span>
-    </a>
-    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fnuez.io%2fposts%2fcomputed-fields-drupal-8%2f" title="Share on Facebook"
-        onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-        <i class="fa fa-2x fa-fw fa-facebook-square" style="margin-left: -8px"></i> <span class="hidden">Facebook</span>
-    </a>
-    <a href="https://plus.google.com/share?url=http%3a%2f%2fnuez.io%2fposts%2fcomputed-fields-drupal-8%2f" title="Share on Google+"
-       onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-        <i class="fa fa-2x fa-fw fa-google-plus-square" style="margin-left: -8px"></i> <span class="hidden">Google+</span>
-    </a>
-    <p class="backtotop"><a data-scroll href="#site-head"><i class="fa fa-lg fa-fw fa-angle-double-up"></i></a><a data-scroll class="backtotoptext" href="#site-head"> Back to top</a></p>
-
-  </section>
-
-  <section class="disqus">
-    <div id="disqus_thread"></div>
+        
+            <div id="disqus_thread"></div>
 <script>
     var disqus_config = function () {
     
@@ -313,66 +281,17 @@ function your_module_views_data_alter(array &amp;$data) {
         (d.head || d.body).appendChild(s);
     })();
 </script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-  </section>
-  
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+
+    </section>
 </article>
-
-</main>
-
-<footer class="site-footer">
-	<div class="inner">
-		<section class="footer-social">
-      
-      <a href="//twitter.com/@nuezweb" target="_blank" title="Twitter"><i class="fa fa-2x fa-fw fa-twitter"></i> <span class="hidden">Twitter</span></a>&nbsp;
-      
-      
-      <a href="//www.linkedin.com/in/teunvanveggel" target="_blank" title="linkedIn"><i class="fa fa-2x fa-fw fa-linkedin"></i> <span class="hidden">LinkedIn</span></a>&nbsp;
-      
-      
-      
-      
-      
-      <a href="//github.com/nuez" target="_blank" title="GitHub"><i class="fa fa-2x fa-fw fa-github"></i> <span class="hidden">GitHub</span></a>&nbsp;
-      
-      
-      
-      
-      <a href="//drupal.org/u/nuez" target="_blank" title="Bitbucket"><i
-        class="fa fa-2x fa-fw fa-drupal"></i> <span class="hidden">Drupal</span></a>&nbsp;
-      
-      
-  </section>
-		<section class="copyright">&copy; 2017 <a href="http://nuez.io">Teun van Veggel</a></section>
 	</div>
+
+	<footer class="site-footer">
+	<p class="text">&copy; 2018 - Teun van Veggel</p>
 </footer>
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107417893-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments)};
-  gtag('js', new Date());
-
-  gtag('config', 'UA-107417893-1');
-</script>
-
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="http://nuez.io/js/index.js"></script>
-<script src="http://nuez.io/js/smooth-scroll.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
-
-
-<script>
-    smoothScroll.init({
-        speed: 800,
-        easing: 'easeInOutCubic',
-        updateURL: false,
-        offset: 125,
-    });
-</script>
-<script>hljs.initHighlightingOnLoad();</script>
 
 
 </body>
