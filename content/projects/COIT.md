@@ -4,8 +4,7 @@ displaytitle: "COIT & AEIT"
 description: "The websites Spain's Telecommunications Institute (COIT) and member association (AEIT) is brimming with custom built functionalities and restricted areas."
 image: "coit.png"
 background: "coit_bg.png"
-tags: ["Drupal 7", "Migration", "Joomla-to-Drupal"]
-weight: 1
+date: 2017-09-01
 draft: false
 ---
 

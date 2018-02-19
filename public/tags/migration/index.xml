@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Migration on Teun van Veggel/nuez.io - Freelance Drupal developer</title>
-    <link>http://nuez.io/tags/migration/</link>
-    <description>Recent content in Migration on Teun van Veggel/nuez.io - Freelance Drupal developer</description>
+    <title>Migration on Hi, I am Teun</title>
+    <link>/tags/migration/</link>
+    <description>Recent content in Migration on Hi, I am Teun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://nuez.io/tags/migration/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/migration/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>COIT &amp; AEIT</title>
-      <link>http://nuez.io/projects/coit/</link>
+      <link>/projects/coit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://nuez.io/projects/coit/</guid>
+      <guid>/projects/coit/</guid>
       <description>www.coit.es www.aeit.es  The websites for the COIT (The ofical Spanish Institute of Telecommunication Engineers) and the AEIT (it&amp;rsquo;s sister member asociation) were designed and built from scratch, included complex migrations and ended up brimming with advanced restricted access functionalities and workflow automizations.</description>
     </item>
     

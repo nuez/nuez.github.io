@@ -1,35 +1,40 @@
-baseurl = "http://nuez.io"
+baseurl = "/"
 languageCode = "en-us"
-title = "Teun van Veggel"
-theme = "nuezio2"
+title = "Hi, I am Teun"
+description = 'qwe'
+theme = "type"
 disqusShortname = "nuez"
-# Enable Google Analytics be inserting your tracking code
 googleAnalytics = ""
-# Number of posts per page
 paginate = 10
 
-favicon = ""
 
 [params]
-	title = "Teun van Veggel/nuez.io - Freelance Drupal developer"
-	copyright = ""
-	subtitle = "and I am a Madrid based, freelance drupal developer."
-	displaytitle = "Hi, I am Teun"
-    favicon = "/images/favicon.png"
-	# Link your social networks (optional)
-	location = "Madrid"
-	twitter = "@nuezweb"
-	linkedin = "teunvanveggel"
-	googleplus = ""
-	facebook = ""
-	instagram = ""
-	github = "nuez"
-	gitlab = ""
-	drupal = "nuez"
-	bitbucket = ""
-
-	# Customize or translate the strings
-	keepReadingStr = "Read more..."
-	backtotopStr = "Back to top"
-	shareStr = "Share"
-	pageNotFoundTitle = "404 - Page not found"
+	author = "Teun van Veggel"
+	description = "I am an independent **Drupal specialist** with over 7 years of experience building websites and web applications."
+	keywords = "drupal, web development"
+	copyright = "Teun van Veggel"
+	[params.social]
+		# Insert your accout name and the icon will be shown in the right menu
+		rss = true
+		homepage = false
+		email = "teun@nuezweb.com"
+		behance = ""
+		bitbucket  =""
+		dribbble = ""
+		facebook = ""
+		flickr = ""
+		github = "nuez"
+		googleplus = ""
+		instagram = ""
+		linkedin = "teunvanveggel"
+		pinterest = ""
+		reddit = ""
+		soundcloud = ""
+		stackexchange = ""
+		steam = ""
+		tumblr = ""
+		twitter = "nuezweb"
+		wordpress = ""
+		youtube = ""
+		gitlab = ""
+		trello = ""

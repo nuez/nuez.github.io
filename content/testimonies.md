@@ -1,10 +1,10 @@
 +++
+date = "2015-07-23"
 title = "Quotes"
-displaytitle = "My clients about me."
-menu  = "main"
-url = "testimonies/"
-hide = "true"
-weight = 5
+subtitle = "What people say about me"
+menu = "nav"
+disableComments = true
+weight = 2
 +++
 
 

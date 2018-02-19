@@ -1,16 +1,13 @@
 ---
 author: "Teun van Veggel"
 date: 2017-08-01
-linktitle: "Hugo vs Drupal: Why I used Hugo for my Drupal portfolio website."
 title: "Hugo vs Drupal: Why I used Hugo for my Drupal portfolio website."
 weight: 10
-tags: ['Golang', 'Hugo']
 description: "When I decided to build my new portfolio website about my Drupal work, I decided to go for Hugo, and not Drupal. Here's why."
 ---
 
-<p class="big"><a href="https://www.drupal.org">Drupal</a> is a full-fledged CMS for secure and complex websites and applications and is adopted by many big companies and governments accross the globe. <a href="https://www.gohugo.io" target="_blank">Hugo</a> is a static site generator built in GoLang that is blazing fast and quickly gaining popularity. For this website about my Drupal work I decided to go for Hugo. Here's why.</p>
+<a href="https://www.drupal.org">Drupal</a> is a full-fledged CMS for secure and complex websites and applications and is adopted by many big companies and governments accross the globe. <a href="https://www.gohugo.io" target="_blank">Hugo</a> is a static site generator built in GoLang that is blazing fast and quickly gaining popularity. For this website about my Drupal work I decided to go for Hugo. Here's why.
 
-</div>
 
 When I started building my new portfolio website, I decided to look further than Drupal to build it. I knew I was going to be the only developer building it and the only editor using it. I didn't need different users, content moderation or multilingual features. It felt like Drupal was going to be too much of distraction from what I wanted: I simple portfolio website that I could easily add content to and tweak the look and feel of.
 

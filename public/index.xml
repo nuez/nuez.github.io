@@ -1,107 +1,63 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Teun van Veggel/nuez.io - Freelance Drupal developer</title>
-    <link>http://nuez.io/</link>
-    <description>Recent content on Teun van Veggel/nuez.io - Freelance Drupal developer</description>
+    <title>Teun van Veggel | Nuez | Independent Drupal Developer on Hi, I am Teun</title>
+    <link>/</link>
+    <description>Recent content in Teun van Veggel | Nuez | Independent Drupal Developer on Hi, I am Teun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2015 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://nuez.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>DrupalCamp Spain</title>
-      <link>http://nuez.io/projects/drupalcamp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Delft</title>
+      <link>/projects/delft/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://nuez.io/projects/drupalcamp/</guid>
-      <description>https://2017.drupalcamp.es https://github.com/AsociacionDrupalES/DrupalCampSpain https://www.lullabot.com/articles/a-successful-drupal-8-deployment  We developed the the DrupalCamp Spain website not only as a point of information for the DrupalCamp Spain 2017,but also as a blue print for future Drupal Camps and a case study for Best practices in Drupal 8. The code base is publicly accessible on Github
-The website is branched off the Drupal Composer project, meaning that all dependencies can be installed using Composer (including contributed modules and core), keeping the GIT repository for the project itself clean and tidy.</description>
+      <guid>/projects/delft/</guid>
+      <description>Drupal voor Gemeenten (Drupal for local governments) is a Drupal installation profile for websites for local authorities. It implements proven concepts to make local goverment websites as intuitive and user-friendly as possible. The Drupal 7 version is currently used in over 30 websites for local goverments in the Netherlands. Delft is the first use case for the Drupal 8 version.
+I was asked to build the port of Drupal voor Gemeenten to Drupal 8, while at the same time developing the specific use case of the city of Delft website.</description>
     </item>
     
     <item>
-      <title>Loesche</title>
-      <link>http://nuez.io/projects/loesche/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Flean</title>
+      <link>/projects/flean/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://nuez.io/projects/loesche/</guid>
-      <description> https://www.loesche.com  </description>
-    </item>
-    
-    <item>
-      <title>COIT &amp; AEIT</title>
-      <link>http://nuez.io/projects/coit/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://nuez.io/projects/coit/</guid>
-      <description>www.coit.es www.aeit.es  The websites for the COIT (The ofical Spanish Institute of Telecommunication Engineers) and the AEIT (it&amp;rsquo;s sister member asociation) were designed and built from scratch, included complex migrations and ended up brimming with advanced restricted access functionalities and workflow automizations.</description>
+      <guid>/projects/flean/</guid>
+      <description>What started out as one of most successful holiday rental websites in the Netherlands, www.fijnopvakantie.nl, grew out to be a full-service, hosted holiday rental solution, currently serving than 20 holiday rental websites.
+The platform allows holiday park owners to increase revenue and improve conversion with a customizable, full-fledged solution taking care of bookings, processing availability (connecting to more than 10 different external booking services) and many other functionalities.
+For this project I have worked on a &amp;lsquo;full-stack&amp;rsquo; range of features: I helped professionalising DevOps and deployment strategies, built new features such as SendGrid integration and implemented new designs and elements with Angular2.</description>
     </item>
     
     <item>
       <title>EOI Business School</title>
-      <link>http://nuez.io/projects/eoi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>/projects/eoi/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://nuez.io/projects/eoi/</guid>
-      <description>www.eoi.es  For this project I was lead developer and product owner, working together with FrontID In the first phase of this project we defined and built a new, sustainable, architecture in Drupal and migrated hundreds of thousands of contents coming from LifeRay.
+      <guid>/projects/eoi/</guid>
+      <description>For this project I was lead developer and product owner, working together with FrontID In the first phase of this project we defined and built a new, sustainable, architecture in Drupal and migrated hundreds of thousands of contents coming from LifeRay.
 The original, static HTML pages of the old website were migrated to dynamic and flexible pages: site editors can now create slideshows, tabs and accordions on the fly and drag and drop them freely into the design without any requiring programming knowledge.</description>
     </item>
     
     <item>
       <title>Midleton School</title>
-      <link>http://nuez.io/projects/midleton/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>/projects/midleton/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://nuez.io/projects/midleton/</guid>
+      <guid>/projects/midleton/</guid>
       <description>In the course of more than 5 years I&amp;rsquo;ve worked together with Midleton School to build custom solutions to improved workflows and save time and money.
 ###Download area I developed</description>
     </item>
     
     <item>
-      <title>Teun van Veggel/nuez.io</title>
-      <link>http://nuez.io/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://nuez.io/</guid>
-      <description> </description>
-    </item>
-    
-    <item>
-      <title>Ace In Art</title>
-      <link>http://nuez.io/projects/aceinart/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://nuez.io/projects/aceinart/</guid>
-      <description> Custom Design and implementation using SASS Advanced workflow for published and moderated content www.aceinart.com  </description>
-    </item>
-    
-    <item>
-      <title>Crisnail</title>
-      <link>http://nuez.io/projects/crisnail/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://nuez.io/projects/crisnail/</guid>
-      <description>http://www.crisnail.com  We were responsible for both the design and development of this multilingual website for professional nail products Crisnail, featuring a product showcase and a restricted area for professionals to download instruction and publishing materials.
-It also features a dynamic Nail studio which generates images for different colors and styles automatically, using a custom programmed Drupal &amp;lsquo;Image style&amp;rsquo;.</description>
-    </item>
-    
-    <item>
-      <title>IBP Uniuso</title>
-      <link>http://nuez.io/projects/uniuso/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://nuez.io/projects/uniuso/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Quotes</title>
-      <link>http://nuez.io/testimonies/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>/testimonies/</link>
+      <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://nuez.io/testimonies/</guid>
+      <guid>/testimonies/</guid>
       <description>&amp;ldquo;The work of Teun and his team has been exceptional, always putting in that bit of effort to propose solutions to any problem. Always prepared to think of the benefits for the client. Their ample experience and professionality guaranteed the success of the project.&amp;rdquo;
  Enrique Torras - Project Manager - Escuela de Organización Industrial (EOI) &amp;nbsp;
  &amp;ldquo;We&amp;rsquo;ve been working for several years with Teun and we&amp;rsquo;re very happy with the work he&amp;rsquo;s done for us.</description>
@@ -109,43 +65,103 @@ It also features a dynamic Nail studio which generates images for different colo
     
     <item>
       <title>Talks</title>
-      <link>http://nuez.io/talks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>/talks/</link>
+      <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://nuez.io/talks/</guid>
+      <guid>/talks/</guid>
       <description> 
    About Where When     Test Driven Development in Drupal 8 DrupalCamp Spain 2017, Madrid, Spain November 2017   Test Driven Development in Drupal 8 Meetup Drupal Noord, Groningen, Netherlands February 2017   Entity API in Drupal 7 DrupalCamp Spain 2013, Cáceres, Spain May 2013    </description>
     </item>
     
     <item>
-      <title>Hire me</title>
-      <link>http://nuez.io/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>How to build a super simple availability calendar.</title>
+      <link>/posts/calendar-for-freelancers/</link>
+      <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://nuez.io/contact/</guid>
-      <description>Use the form below or an email to teun@nuezweb.com to enquire about my rates and availability. Please include as much relevant information as possible about budget, scope, starting dates and deadlines.
-  </description>
+      <guid>/posts/calendar-for-freelancers/</guid>
+      <description>&lt;p&gt;As a freelancer I like my (potential) clients to be aware of my availability, so we both don&amp;rsquo;t waste our time. To make the calendar as hassle-free as possible I wanted integrate it with Google Calendar, so all it would take is to fill in my availability there.&lt;/p&gt;
+
+&lt;p&gt;All I need is a simple view of a calendar, without details of each event: just whether or not I am available for work. I figured that the good ol&amp;rsquo; jQuery Datepicker would do just fine.&lt;/p&gt;
+
+&lt;p&gt;So here&amp;rsquo;s what I did.&lt;/p&gt;
+
+&lt;h3 id=&#34;1-get-an-api-key&#34;&gt;1. Get an API Key.&lt;/h3&gt;
+
+&lt;p&gt;Although most of the documentation you find online about authenticating for Google APIs is about OAUTH2 and complicated authentication flows, authenticating for publicly accessible Google content is really simple: all you need is an API key.&lt;/p&gt;
+
+&lt;p&gt;Go to &lt;a href=&#34;https://console.developers.google.com&#34;&gt;https://console.developers.google.com&lt;/a&gt; and create a new project. Select &lt;code&gt;credentials&lt;/code&gt; and create an &lt;em&gt;API Key&lt;/em&gt;.  You can restrict the use of the key although you don&amp;rsquo;t have to. Copy the API key value somewhere: we&amp;rsquo;ll need it in our code.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Create computed fields in Drupal 8</title>
-      <link>http://nuez.io/posts/computed-fields-drupal-8/</link>
-      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      <title>Create computed fields in Drupal 8.</title>
+      <link>/posts/computed-fields-drupal-8/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://nuez.io/posts/computed-fields-drupal-8/</guid>
-      <description>In Drupal 7 it was possible to add computed properties to entities using a simple hook. Those properties would then become available to modules like Search API and Views. How do computed fields work in Drupal 8 and do they have the same level of maturity? 
-In Drupal 8 we can distinguish between field types that have some computed properties and on the other hand fields that are fully computed.</description>
+      <guid>/posts/computed-fields-drupal-8/</guid>
+      <description>In Drupal 8 we can distinguish between field types that have some computed properties and on the other hand fields that are fully computed.
+The former is quite common in Drupal 8: several field type definitions have computed properties alongside other properties that are stored in the database. For example the TextItem field type stores the value and the format in the database, but a third property processed is computed on the fly: it parses the raw text value using a format resulting in the processed value.</description>
     </item>
     
     <item>
       <title>Hugo vs Drupal: Why I used Hugo for my Drupal portfolio website.</title>
-      <link>http://nuez.io/posts/hugo-vs-drupal/</link>
+      <link>/posts/hugo-vs-drupal/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://nuez.io/posts/hugo-vs-drupal/</guid>
-      <description>Drupal is a full-fledged CMS for secure and complex websites and applications and is adopted by many big companies and governments accross the globe. Hugo is a static site generator built in GoLang that is blazing fast and quickly gaining popularity. For this website about my Drupal work I decided to go for Hugo. Here&#39;s why.
-
+      <guid>/posts/hugo-vs-drupal/</guid>
+      <description>Drupal is a full-fledged CMS for secure and complex websites and applications and is adopted by many big companies and governments accross the globe. Hugo is a static site generator built in GoLang that is blazing fast and quickly gaining popularity. For this website about my Drupal work I decided to go for Hugo. Here&amp;rsquo;s why.
 When I started building my new portfolio website, I decided to look further than Drupal to build it.</description>
+    </item>
+    
+    <item>
+      <title>Hire me</title>
+      <link>/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>Use the form below or an email to teun@nuezweb.com to enquire about my rates and availability. Please include as much relevant information as possible about budget, scope, starting dates and deadlines.
+   My agenda  Busy Available for hire  </description>
+    </item>
+    
+    <item>
+      <title>DrupalCamp Spain</title>
+      <link>/projects/drupalcamp/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/drupalcamp/</guid>
+      <description>We developed the the DrupalCamp Spain website not only as a point of information for the DrupalCamp Spain 2017,but also as a blue print for future Drupal Camps and a case study for Best practices in Drupal 8. The code base is publicly accessible on Github
+The website is branched off the Drupal Composer project, meaning that all dependencies can be installed using Composer (including contributed modules and core), keeping the GIT repository for the project itself clean and tidy.</description>
+    </item>
+    
+    <item>
+      <title>Loesche</title>
+      <link>/projects/loesche/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/loesche/</guid>
+      <description>For the German industrial engineering company Loesche I designed and developed a super flexible, multilingual website, using Paragraphs to guarantee maximum flexibility for the editors of the website.
+The whole website was realised in just over a 100 hours including design and development.
+ https://www.loesche.com  </description>
+    </item>
+    
+    <item>
+      <title>COIT &amp; AEIT</title>
+      <link>/projects/coit/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/coit/</guid>
+      <description>www.coit.es www.aeit.es  The websites for the COIT (The ofical Spanish Institute of Telecommunication Engineers) and the AEIT (it&amp;rsquo;s sister member asociation) were designed and built from scratch, included complex migrations and ended up brimming with advanced restricted access functionalities and workflow automizations.</description>
+    </item>
+    
+    <item>
+      <title>Crisnail</title>
+      <link>/projects/crisnail/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/crisnail/</guid>
+      <description>http://www.crisnail.com  We were responsible for both the design and development of this multilingual website for professional nail products Crisnail, featuring a product showcase and a restricted area for professionals to download instruction and publishing materials.
+It also features a dynamic Nail studio which generates images for different colors and styles automatically, using a custom programmed Drupal &amp;lsquo;Image style&amp;rsquo;.</description>
     </item>
     
   </channel>

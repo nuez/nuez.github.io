@@ -3,9 +3,8 @@ title: "Crisnail"
 description: "Crisnail is a world-wide company for professional nail and beauty products. We provided the design and development of the website, including a dynamic 'Nail studio'."
 image: "crisnail.png"
 background: "crisnail_bg.png"
-tags: ["Drupal", "Design", "SMACSS"]
-weight: 2
 draft: false
+date: 2017-4-01
 ---
 
 - http://www.crisnail.com

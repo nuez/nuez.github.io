@@ -1,10 +1,9 @@
 +++
+date = "2015-07-23"
 title = "Talks"
-displaytitle = "Talks about Drupal."
-menu  = "main"
-url = "talks/"
-hide = "true"
-weight = 5
+menu = "nav"
+disableComments = true
+weight = 3
 +++
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/nd7DUVNxTxE?ecver=1" frameborder="0" allowfullscreen></iframe>

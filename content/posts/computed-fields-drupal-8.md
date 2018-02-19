@@ -1,22 +1,16 @@
 ---
 author: "Teun van Veggel"
-date: 2017-08-01
-linktitle: "How to create computed fields in Drupal 8"
-title: "Create computed fields in Drupal 8"
+date: 2017-10-01
+title: "Create computed fields in Drupal 8."
 weight: 10
-tags: ['Drupal 8', 'Entity', 'Field']
-description: "Drupal allows you to calculate your fields instead of fetching them from the database. How easy is that and how well does it integrate with other modules?"
+description: "Drupal allows you to compute your fields instead of fetching them from the database. How easy is that and how well does it integrate with other modules?"
 ---
-
-<p class="big">
-In Drupal 7 it was possible to add computed properties to entities using a simple hook. Those properties would then become available to modules like Search API and Views. How do computed fields work in Drupal 8 and do they have the same level of maturity?
-</div>
 
 In Drupal 8 we can distinguish between field types that have some computed **properties** and on the other hand fields that are fully computed.
 
 The former is quite common in Drupal 8: several field type definitions have computed properties alongside other properties that are stored in the database. For example the ```TextItem``` field type stores the ```value``` and the ```format``` in the database, but a third property ```processed``` is computed on the fly: it parses the raw text *value* using a *format* resulting in the *processed* value. Another example is the ```entity``` property on the EntityReferenceItem field type, which 'computes' the full entity based on the ```target_id``` property that is saved to the database.
 
-This blog post is about the latter: creating field definitions based on existing field types that don't store data to the database but are entirely computed. The only example of this in core that I have been able to find is the ```moderation_state``` field in the *Content Moderation* module in core.
+creating field definitions based on existing field types that don't store data to the database but are entirely computed. The only example of this in core that I have been able to find is the ```moderation_state``` field in the *Content Moderation* module in core.
 
 ## So how does it work?
 
@@ -24,7 +18,8 @@ Let's see an example. Let's say we want to add the field ```my_computed_field```
 
 First we need to add a base class and set the ```setComputed()``` and ```setClass``` setters. The field is computed so we don't need it on the node form, but we do need it to show on the node view settings in order to change the display settings. For that we use the ```->setDisplayOptions()``` and ```->setDisplayConfigurable``` setters.
 
-```
+
+```php
 /**
  * Implements hook_entity_base_field_info_alter().
  */

@@ -1,11 +1,9 @@
 +++
 title = "Hire me"
-displaytitle = "Or just say hi."
-subtitle = ""
-menu  = "main"
+subtitle = "Or just say hi."
 url = "contact/"
-hide = "true"
-weight = 6
+menu = "nav"
+weight = 99
 +++
 
 Use the form below or an email to <a href="mailto://teun@nuezweb.com">teun@nuezweb.com</a> to enquire about my rates and availability. Please include as much relevant information as possible about budget, scope, starting dates and deadlines.
@@ -16,3 +14,14 @@ Use the form below or an email to <a href="mailto://teun@nuezweb.com">teun@nuezw
     <textarea name="message" placeholder="Message"></textarea>
     <input type="submit" value="Send a message">
 </form>
+
+<p> </p>
+
+<h3>My agenda</h3>
+
+<div id="datepicker"></div>
+
+<div class="legend">
+<div class="busy">Busy</div>
+<div class="free">Available for hire</div>
+</div>

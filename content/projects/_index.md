@@ -1,15 +1,12 @@
 +++
-title = "Work"
-displaytitle = "What can I do for you?"
-subtitle = ""
-menu  = "main"
-url = "projects"
-weight = 3
+title = "Projects"
+subtitle = "What can I do for you?"
+menu  = "nav"
+weight = 2
 +++
 
-<div class="big">
 For more than 7 years I have been building tailor-made software solutions as a freelance developer and business owner for clients in the UK, The Netherlands, Germany and Spain. 
-</div>
+
 
 <!--
 At first I started building and designing websites for smaller and mid-size companies, then moved on to carrying out complex migrations for bigger institutions and now enjoy working on more complex backend solutions in Drupal 8.

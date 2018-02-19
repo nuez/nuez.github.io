@@ -1,14 +1,8 @@
 +++
 title = "Posts"
-displaytitle = "Read me."
-subtitle = ""
-menu  = "main"
-url = "posts/"
-hide = "true"
+subtitle = "About Drupal, coding and business."
+menu  = "nav"
 weight = 2
-content = "## test"
 +++
 
-<div class="big">
 About my life as a freelance developer, Drupal and other tech.
-</div>
