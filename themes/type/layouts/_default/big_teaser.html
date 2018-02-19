@@ -1,0 +1,23 @@
+<article>
+    <header>
+        <a class="post-link" href="{{ .Permalink }}">
+            <h1 class="title">{{ .Title }}</h1>
+        </a>
+        {{ partial "post-meta" . }}
+        {{ if isset .Params "subtitle" }}
+        <div class="subtitle">{{ .Params.subtitle }}</div>
+        {{ end}}
+    </header>
+    {{ if isset .Params "background" }}
+        <div class="bg" style="background-image:url('/images/{{ .Params.background }}')" alt="{{ .Title }}"></div>
+    {{ end }}
+    <section class="excerpt">
+        {{ .Summary }}
+    </section>
+
+
+    <a class="button" href="{{ .Permalink }}">
+        Read more
+    </a>
+
+</article>

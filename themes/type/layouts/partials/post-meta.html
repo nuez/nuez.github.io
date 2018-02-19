@@ -1,0 +1,5 @@
+<div class="meta">
+	{{ if eq .Section "posts" }}
+	<span class="date">{{ .Date.Format "January 2, 2006" }}</span> &middot; {{ .ReadingTime }} {{ .Site.Data.l10n.readingTime }}
+	{{ end }}
+</div>

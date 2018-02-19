@@ -1,0 +1,14 @@
+	{{ partial "head.html" . }}
+	<body>
+		{{ partial "branding.html" . }}
+		{{ partial "nav.html" . }}
+		<div class="content">
+			<div class="home">
+				{{ .Content }}
+				{{ partial "post-list-home.html" . }}
+				{{ partial "pagination.html" . }}
+				{{ partial "footer.html" . }}
+			</div>
+		</div>
+	</body>
+</html>

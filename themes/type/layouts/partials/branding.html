@@ -1,0 +1,13 @@
+<div class="branding">
+    <a href="{{ .Site.BaseURL }}"><div class="photo"></div>
+    </a>
+    <div class="site-title">
+        <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+    </div>
+
+    <div class="site-description">
+    {{ .Site.Params.description | markdownify }}
+    </div>
+
+    <a href="/contact" class="btn">Hire me</a>
+</div>

@@ -1,0 +1,22 @@
+<button class="hamburger hamburger--collapse" type="button">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+</button>
+<header class="site-header">
+    {{ $url := .URL }}
+
+    <nav class="site-nav">
+        <ul>
+            {{ range .Site.Menus.nav -}}
+
+            <li><a {{ if eq $url .URL }}class="active" {{ end }} href="{{ .URL }}"> {{ .Name }} </a></li>
+            {{- end }}
+            <li>
+                <ul>
+                    {{ partial "icons.html" . }}
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>

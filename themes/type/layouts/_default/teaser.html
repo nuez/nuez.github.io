@@ -1,0 +1,24 @@
+<div class="post-teaser">
+    <header>
+        <h3>
+            <a class="post-link" href="{{ .Permalink }}">
+                {{ .Title }}
+            </a>
+        </h3>
+        {{ partial "post-meta" . }}
+    </header>
+    {{ if isset .Params "image" }}
+    <img src="/images/{{ .Params.image }}" alt="{{ .Title }}"/>
+    {{ end }}
+    <div class="excerpt">
+        {{ if isset .Params "description" | and (ne .Params.description "") -}}
+        {{ .Description | markdownify }}
+        {{- else -}}
+        {{ .Summary }}
+        {{- end }}
+        <br>
+        <a class="button" href="{{ .Permalink }}">
+            Read more
+        </a>
+    </div>
+</div>

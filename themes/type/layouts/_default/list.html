@@ -1,0 +1,11 @@
+{{ define "main" -}}
+<header>
+	<h1 class="title">{{ .Title }}</h1>
+	{{ if isset .Params "subtitle" }}
+	<div class="subtitle">{{ .Params.subtitle }}</div>
+	{{ end}}
+</header>
+
+	{{ partial "post-list.html" . }}
+	{{ partial "pagination.html" . }}
+{{- end }}

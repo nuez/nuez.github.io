@@ -1,0 +1,526 @@
+$hamburger-padding-x                       : 15px;
+$hamburger-padding-y                       : 15px;
+$hamburger-layer-width                     : 22px;
+$hamburger-layer-height                    : 2px;
+$hamburger-layer-spacing                   : 4px;
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i|Source+Serif+Pro:400,700');
+@import "./node_modules/hamburgers/_sass/hamburgers/hamburgers.scss";
+@import "./node_modules/breakpoint-sass/stylesheets/breakpoint";
+
+$main-color: #16343a;
+$secondary-color: #a92b6d;
+$border-color: #eee;
+$content-width: 900px;
+$header-height: 120px;
+$main-font: 'Source Sans Pro', sans-serif;
+$body-font: 'Source Serif Pro', serif;
+$padding: 40px;
+$sidebar-width: 20%;
+$desktop: 1250px;
+
+
+a.button{
+  background:#666;
+  border-radius:2px;
+  color:white;
+  padding:8px;
+  text-transform:uppercase;
+  margin-top:20px;
+  font-size:.7em;
+  font-weight:bold;
+  display:inline-block;
+  &:hover{
+    color:white;
+    background: $secondary-color;
+  }
+}
+.excerpt,
+p{
+  font-family: $body-font;
+  color:$main-color;
+  font-weight:300;
+
+  line-height: 1.4;
+}
+
+.home{
+  article{
+    margin-bottom:40px;
+    padding-bottom:40px;
+    border-bottom:1px solid $border-color;
+    a.button{
+      background:$secondary-color;
+      &:hover{
+        background:#333;
+      }
+    }
+  }
+}
+body {
+  font-size: 1.2em;
+  color: $main-color;
+  font-family: $main-font;
+  font-weight: 400;
+  word-wrap: break-word;
+  h1 {
+    margin-top: 0;
+  }
+  h2,
+  h3{
+    margin-top:40px;
+  }
+  header {
+    h1,h2,h3{
+      margin-top:0;
+    }
+  }
+  h1 {
+    @include breakpoint(0 $desktop) {
+      font-size: 1.4em;
+    }
+  }
+  article {
+    max-width: $content-width;
+    .bg{
+      background-size: cover;
+      width:100%;
+      height:300px;
+    }
+  }
+  .subtitle {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: $secondary-color;
+    border-bottom: 1px solid $border-color;
+    padding-bottom: $padding;
+  }
+  blockquote {
+    padding-left: 1em;
+    margin-left: 0;
+    border-left: 2px solid $secondary-color;
+  }
+  a {
+    color: $main-color;
+    text-decoration: none;
+    &.active,
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+
+  > .branding {
+    z-index: 999;
+    border-bottom: 1px solid $border-color;
+    position: fixed;
+    width: 100%;
+    background: white;
+    height: $header-height;
+    a.btn {
+      float: right;
+      border-radius: 2px;
+      background: $secondary-color;
+      margin-right: $padding;
+      color: white;
+      padding: 10px;
+      font-family: $main-font;
+      font-weight: bold;
+      font-size: .8em;
+      margin-top: 35px;
+      text-transform: uppercase;
+      &:hover {
+        background: $main-color;
+      }
+
+    }
+    .site-title {
+      float: left;
+      text-align: right;
+      font-size: 2.6em;
+      padding-top: 25px;
+      font-weight: 900;
+      padding-bottom: $padding;
+      border-right: 1px solid $border-color;
+      padding-left: $padding;
+      padding-right: $padding;
+    }
+    .site-description {
+      color: $secondary-color;
+      max-width: 400px;
+      float: left;
+      font-size: .9em;
+      padding-top: 38px;
+      padding-left: $padding;
+    }
+    .photo {
+      width: calc(#{$sidebar-width} + #{$padding} + 1px);
+      height: 100%;
+      float: left;
+      background: url('/images/me.jpg') 50% 50%;
+      background-size: cover;
+    }
+    @include breakpoint(0 $desktop) {
+      position: relative;
+      height: auto;
+      .photo,
+      a.btn,
+      .site-title,
+      .site-description {
+        border: none;
+        width: calc(100% - 40px);
+        padding: 20px;
+        text-align: center;
+        margin: 0;
+        float: none;
+        max-width: none;
+      }
+      a.btn {
+        padding: 10px;
+        margin: 10px;
+        display: block;
+      }
+      .site-description {
+        padding-top: 0;
+        margin-top: 80px;
+      }
+      .photo {
+        position: fixed;
+        top: 0;
+        height: 60px;
+        padding: 0;
+        width: 80px;
+        border-bottom: 1px solid $border-color;
+      }
+      .site-title {
+        position: fixed;
+        line-height: 54px;
+        background: white;
+        top: 0;
+        left: 80px;
+        border-bottom: 1px solid $border-color;
+        text-align: left;
+        height: 60px;
+        font-size: 1.2em;
+        padding: 0;
+        padding-left: 20px;
+      }
+
+    }
+  }
+  .hamburger {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    display: block;
+    outline:none;
+
+    @include breakpoint($desktop) {
+
+      display: none;
+
+    }
+  }
+  > header {
+    padding-top: calc(#{$header-height} + 55px);
+    border-right: 1px solid $border-color;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: $sidebar-width;
+    text-align: right;
+    padding-right: $padding;
+    margin-right: $padding;
+
+    @include breakpoint(0 $desktop) {
+      left:100%;
+      padding: 0;
+      margin: 0;
+      z-index: 999;
+      top: 61px;
+      text-align: center;
+      padding-top: 40px;
+      border: none;
+      &.menu-active {
+        left: 0;
+      }
+      width: 100%;
+      background: white;
+
+    }
+    ul {
+
+      font-family: $main-font;
+      font-weight: bold;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      li {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-size: 1.3em;
+        margin-bottom: $padding;
+        ul {
+          li {
+            display: inline-block;
+            font-size: .7em;
+          }
+        }
+      }
+    }
+  }
+  > .content {
+    padding-top: calc(#{$header-height});
+    margin-left: calc(#{$sidebar-width} + #{$padding});
+    box-sizing: border-box;
+    display: block;
+    @include breakpoint(0 $desktop) {
+      margin-left: 0;
+      padding-top: 0;
+    }
+    > header,
+    > .home,
+    > article {
+      padding: $padding;
+      @include breakpoint(0 $desktop) {
+        padding: 10px;
+      }
+      img.project{
+        float:right;
+        width:auto;
+        padding:0;
+        margin:0;
+        max-height:200px;
+        max-width:200px;
+      }
+    }
+    > header {
+      padding-bottom: 0;
+    }
+    .post-content{
+      a{
+        border-bottom:dotted 1px $secondary-color;
+        &:hover{
+          color:white;
+          background-color:$secondary-color;
+        }
+      }
+    }
+    .posts {
+      width: 100%;
+      .post-teaser {
+        box-sizing: border-box;
+        &:last-child {
+          border-bottom: none;
+        }
+        width: 100%;
+        border-bottom: 1px solid $border-color;
+        padding: $padding;
+        @include breakpoint(0 $desktop) {
+          padding: 10px;
+        }
+        > * {
+          max-width: $content-width;
+
+        }
+
+      }
+
+    }
+  }
+  > footer {
+    text-align: center;
+    background: white;
+    margin-top: 3em;
+    padding: 1em 0;
+    z-index: 9999;
+    position: relative;
+    border-top: 1px solid $border-color;
+  }
+}
+p{
+  code{
+    padding:0 !important;
+    color:$secondary-color;
+  }
+  strong{
+    font-weight:700;
+  }
+}
+code{
+  font-size:.8em;
+  font-weight:300;
+  padding:20px !important;
+}
+
+article,
+.post-teaser{
+  .meta{
+    color:#888888;
+    text-transform:uppercase;
+    font-size:.9em;
+    margin-bottom:20px;
+    .date{
+      color:$secondary-color;
+    }
+  }
+}
+.post-teaser{
+
+  img{
+    float:right;
+    width:auto;
+    padding:0;
+    margin:0;
+    max-height:200px !important;
+    max-width:200px !important;
+    margin-left:40px;
+  }
+}
+
+.post-content{
+  margin-top:40px;
+
+}
+
+blockquote{
+  font-style:italic;
+  font-size:1.2em;
+}
+
+form{
+  width:100%;
+  textarea,
+  input{
+    box-sizing: border-box;
+    border: 1px solid $border-color;
+    width:100%;
+    padding:10px;
+    margin-bottom:20px;
+    color:$secondary-color;
+    font-weight:bold;
+    &::placeholder{
+
+      font-weight:300;
+      color:$secondary-color;
+    }
+  }
+  input[type="submit"]{
+    border:none;
+    background:$secondary-color;
+    color:white;
+  }
+}
+
+#datepicker{
+  position:relative;
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .ui-datepicker-title{
+    text-align:center;
+    border-bottom:2px solid $secondary-color;
+    padding-bottom:20px;
+    margin-bottom:20px;
+  }
+  .ui-datepicker-group{
+    margin-top:40px;
+    padding:20px;
+    box-sizing: border-box;
+    @include breakpoint($desktop){
+      width:calc(100%/3);
+      float:left;
+    }
+    @include breakpoint(0 $desktop){
+      width:100%;
+      display:block;
+    }
+  }
+  .ui-datepicker-next{
+    position:absolute;
+    right:0;
+    top: 0px;
+    margin:20px;
+    cursor:pointer;
+  }
+  .ui-datepicker-prev{
+    position:absolute;
+    left:0;
+    top: 0px;
+    margin:20px;
+    cursor:pointer;
+  }
+  table{
+    width:100%;
+    th{
+      width:calc(100%/8);
+    }
+    td{
+      text-align:center;
+      font-size:.8em;
+      a{
+        display:block;
+        width:30px;
+        height:29px;
+        margin:0 auto;
+        color:black;
+        line-height: 1.8;
+        border-radius:50%;
+        border:none;
+        cursor: default;
+        &:hover{
+          color:black;
+          background:none;
+        }
+      }
+      a.free{
+        color:white;
+        background:green;
+      }
+      a.busy{
+        color:white;
+        background:red;
+      }
+    }
+  }
+}
+
+.legend{
+  margin:20px;
+  .busy,
+  .free{
+    margin-right:40px;
+    display:inline-block;
+    vertical-align: center;
+    &:before{
+      vertical-align: center;
+      margin-bottom:-4px;
+      height:20px;
+      width:20px;
+      content: ' ';
+      background:green;
+      border-radius:50%;
+      margin-right:10px;
+      display:inline-block;
+    }
+  }
+  .busy{
+    &:before{
+      background:red;
+    }
+  }
+}
+
+.post-content > table{
+  width:100%;
+  tr{
+    th,td{
+      text-align:left;
+      border-bottom:1px solid $border-color;
+      padding:10px;
+    }
+  }
+}

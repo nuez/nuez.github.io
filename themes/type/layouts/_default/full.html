@@ -1,0 +1,22 @@
+<article>
+    <header>
+        {{ if isset .Params "image" }}
+        <img class="project" src="/images/{{ .Params.image }}" alt="{{ .Title }}"/>
+        {{ end }}
+        <h1 class="title">{{ .Title }}</h1>
+        {{ partial "post-meta" . }}
+        {{ if isset .Params "subtitle" }}
+        <div class="subtitle">{{ .Params.subtitle }}</div>
+        {{ end}}
+    </header>
+    {{ if isset .Params "background" }}
+        <div class="bg" style="background-image:url('/images/{{ .Params.background }}')" alt="{{ .Title }}"></div>
+    {{ end }}
+    <section class="post-content">
+        {{ .Content }}
+        {{ if (not (eq .Site.DisqusShortname "")) | and (eq .Section "posts") }}
+            {{ template "_internal/disqus.html" . }}
+        {{ end }}
+
+    </section>
+</article>
