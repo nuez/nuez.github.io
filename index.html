@@ -187,15 +187,15 @@
     </header>
     
     <section class="excerpt">
-        <p><em>I have updated this post as a result of <a href="https://www.drupal.org/project/drupal/issues/2392845">this</a> issue, that added the  <code>ComputedItemListTrait</code> trait to core.</em></p>
+        <p><em>I have updated this post as a result of <a href="https://www.drupal.org/project/drupal/issues/2392845">the issue (https://www.drupal.org/project/drupal/issues/2392845)</a> that added the  <code>ComputedItemListTrait</code> trait to core.</em></p>
 
-<p>In Drupal 8 we have, on the one hand, field types that have some computed <strong>field properties</strong>, and on the other hand fields that are fully computed.</p>
+<p>In Drupal 8 we have on the one hand field types with some computed <strong>field properties</strong>, and on the other hand fields that are fully computed.</p>
 
-<p>The former is quite common in Drupal 8: for example the <code>TextItem</code> field type stores the <code>value</code> and the <code>format</code> property in the database, but a third property called <code>processed</code> is computed on the fly.</p>
+<p>Computed field properties are quite common in Drupal 8. An example is the <code>TextItem</code> field type. The properties <code>value</code> and <code>format</code> are stored in the database, but a third property called <code>processed</code> is computed on the fly using the <code>value</code> and the <code>format</code>.</p>
 
-<p>When it comes to fully computed field items, there are less examples in core. It seems that in Drupal 8.5 the only fully computed field (using an existing field type) is the <code>moderation_state</code> field that the Content Moderation module adds to entities with a moderation workflow.</p>
+<p>When it comes to fully computed field items, there are less examples in core. It seems that in Drupal 8.5 the only fully computed field is the <code>moderation_state</code> field, provided by the Content Moderation module. The field is added to all entities that add a moderation workflow.</p>
 
-<p>Since the <code>ComputedItemListTrait</code> was added in <a href="https://www.drupal.org/project/drupal/issues/2392845">this issue</a>, however, it has become quite straightforward to create a fully computed field.</p>
+<p>Since the <code>ComputedItemListTrait</code> was added in <a href="https://www.drupal.org/project/drupal/issues/2392845">this issue</a>, however, adding a computed field has become A lot more straightforward than it seems.</p>
 
 <p></p>
     </section>

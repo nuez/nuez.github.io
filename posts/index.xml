@@ -38,15 +38,15 @@
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>/posts/computed-fields-drupal-8/</guid>
-      <description>&lt;p&gt;&lt;em&gt;I have updated this post as a result of &lt;a href=&#34;https://www.drupal.org/project/drupal/issues/2392845&#34;&gt;this&lt;/a&gt; issue, that added the  &lt;code&gt;ComputedItemListTrait&lt;/code&gt; trait to core.&lt;/em&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;em&gt;I have updated this post as a result of &lt;a href=&#34;https://www.drupal.org/project/drupal/issues/2392845&#34;&gt;the issue (https://www.drupal.org/project/drupal/issues/2392845)&lt;/a&gt; that added the  &lt;code&gt;ComputedItemListTrait&lt;/code&gt; trait to core.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;In Drupal 8 we have, on the one hand, field types that have some computed &lt;strong&gt;field properties&lt;/strong&gt;, and on the other hand fields that are fully computed.&lt;/p&gt;
+&lt;p&gt;In Drupal 8 we have on the one hand field types with some computed &lt;strong&gt;field properties&lt;/strong&gt;, and on the other hand fields that are fully computed.&lt;/p&gt;
 
-&lt;p&gt;The former is quite common in Drupal 8: for example the &lt;code&gt;TextItem&lt;/code&gt; field type stores the &lt;code&gt;value&lt;/code&gt; and the &lt;code&gt;format&lt;/code&gt; property in the database, but a third property called &lt;code&gt;processed&lt;/code&gt; is computed on the fly.&lt;/p&gt;
+&lt;p&gt;Computed field properties are quite common in Drupal 8. An example is the &lt;code&gt;TextItem&lt;/code&gt; field type. The properties &lt;code&gt;value&lt;/code&gt; and &lt;code&gt;format&lt;/code&gt; are stored in the database, but a third property called &lt;code&gt;processed&lt;/code&gt; is computed on the fly using the &lt;code&gt;value&lt;/code&gt; and the &lt;code&gt;format&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;When it comes to fully computed field items, there are less examples in core. It seems that in Drupal 8.5 the only fully computed field (using an existing field type) is the &lt;code&gt;moderation_state&lt;/code&gt; field that the Content Moderation module adds to entities with a moderation workflow.&lt;/p&gt;
+&lt;p&gt;When it comes to fully computed field items, there are less examples in core. It seems that in Drupal 8.5 the only fully computed field is the &lt;code&gt;moderation_state&lt;/code&gt; field, provided by the Content Moderation module. The field is added to all entities that add a moderation workflow.&lt;/p&gt;
 
-&lt;p&gt;Since the &lt;code&gt;ComputedItemListTrait&lt;/code&gt; was added in &lt;a href=&#34;https://www.drupal.org/project/drupal/issues/2392845&#34;&gt;this issue&lt;/a&gt;, however, it has become quite straightforward to create a fully computed field.&lt;/p&gt;
+&lt;p&gt;Since the &lt;code&gt;ComputedItemListTrait&lt;/code&gt; was added in &lt;a href=&#34;https://www.drupal.org/project/drupal/issues/2392845&#34;&gt;this issue&lt;/a&gt;, however, adding a computed field has become A lot more straightforward than it seems.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>

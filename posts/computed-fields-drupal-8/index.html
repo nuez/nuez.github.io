@@ -148,21 +148,21 @@
     </header>
     
     <section class="post-content">
-        <p><em>I have updated this post as a result of <a href="https://www.drupal.org/project/drupal/issues/2392845">this</a> issue, that added the  <code>ComputedItemListTrait</code> trait to core.</em></p>
+        <p><em>I have updated this post as a result of <a href="https://www.drupal.org/project/drupal/issues/2392845">the issue (https://www.drupal.org/project/drupal/issues/2392845)</a> that added the  <code>ComputedItemListTrait</code> trait to core.</em></p>
 
-<p>In Drupal 8 we have, on the one hand, field types that have some computed <strong>field properties</strong>, and on the other hand fields that are fully computed.</p>
+<p>In Drupal 8 we have on the one hand field types with some computed <strong>field properties</strong>, and on the other hand fields that are fully computed.</p>
 
-<p>The former is quite common in Drupal 8: for example the <code>TextItem</code> field type stores the <code>value</code> and the <code>format</code> property in the database, but a third property called <code>processed</code> is computed on the fly.</p>
+<p>Computed field properties are quite common in Drupal 8. An example is the <code>TextItem</code> field type. The properties <code>value</code> and <code>format</code> are stored in the database, but a third property called <code>processed</code> is computed on the fly using the <code>value</code> and the <code>format</code>.</p>
 
-<p>When it comes to fully computed field items, there are less examples in core. It seems that in Drupal 8.5 the only fully computed field (using an existing field type) is the <code>moderation_state</code> field that the Content Moderation module adds to entities with a moderation workflow.</p>
+<p>When it comes to fully computed field items, there are less examples in core. It seems that in Drupal 8.5 the only fully computed field is the <code>moderation_state</code> field, provided by the Content Moderation module. The field is added to all entities that add a moderation workflow.</p>
 
-<p>Since the <code>ComputedItemListTrait</code> was added in <a href="https://www.drupal.org/project/drupal/issues/2392845">this issue</a>, however, it has become quite straightforward to create a fully computed field.</p>
+<p>Since the <code>ComputedItemListTrait</code> was added in <a href="https://www.drupal.org/project/drupal/issues/2392845">this issue</a>, however, adding a computed field has become A lot more straightforward than it seems.</p>
 
 <p></p>
 
 <h2 id="so-how-does-it-work">So how does it work?</h2>
 
-<p>To compute the values of a specific field, all you need to do is mark the <code>setComputed</code> flag and set the <em>class</em> in charge of computing the value in the field definition:</p>
+<p>To compute the values of a specific field, all you need to do is mark the <code>setComputed</code> and the <code>setClass</code> &lsquo;flags&rsquo; on the field definition. The class you set is in charge of computing the value in the field definition:</p>
 
 <pre><code class="language-php">/**
  * Implements hook_entity_base_field_info_alter().
@@ -173,18 +173,12 @@ function your_module_entity_base_field_info_alter(&amp;$fields, EntityTypeInterf
       -&gt;setName('my_computed_field')
       -&gt;setLabel(t('My computed field'))
       -&gt;setComputed(TRUE)
-      -&gt;setTargetEntityTypeId('node')
-      -&gt;setClass(ComputedField::class)
-      -&gt;setDisplayOptions('view', [
-        'type' =&gt; 'string',
-        'weight' =&gt; 0,
-      ])
-      -&gt;setDisplayConfigurable('view', TRUE);
+      -&gt;setClass(ComputedField::class);
   }
 }
 </code></pre>
 
-<p>After that, you create a class that extends the <code>FieldItemList</code> class and uses the <code>ComputedItemListTrait</code>. Because of the trait, you will be forced to implement the abstract method <code>computeValue</code>, which will be in charge of actually setting the computed value.</p>
+<p>Then you create your <em>computing</em> class that extends the <code>FieldItemList</code> class and uses the <code>ComputedItemListTrait</code>. Because of the trait, you will be forced to implement the abstract method <code>computeValue</code>, which will be in charge of actually setting the computed value.</p>
 
 <pre><code>class ComputedField extends FieldItemList implements FieldItemListInterface {
 
@@ -203,17 +197,17 @@ function your_module_entity_base_field_info_alter(&amp;$fields, EntityTypeInterf
 }
 </code></pre>
 
-<p>Your method should set the list property (which is always an array of values), with one or more instantiated field items.</p>
+<p>Your method should set the list property of the class (which is always an array of values) with one or more instantiated field items.</p>
 
 <p>The <code>ComputedItemListTrait</code> under the hood will then make sure that the computed  values are computed and stored in the list property before talking to the database.</p>
 
 <h2 id="integration-with-the-rest-of-drupal">Integration with the rest of Drupal</h2>
 
-<p>In Drupal 7, the advantage of using computed fields was that computed fields can be immediately used in Views. Not as sorts or filters (you can&rsquo;t add computed fields to the database query), but as selectable fields that you can add to, say, a table.</p>
+<p>In Drupal 7, the advantage of using computed fields was that computed fields can be immediately used in Views. The won&rsquo;t be available as sorts or filters (They cannot be added to the the database query), but they will be available just as fields.</p>
 
 <p>In Drupal 8, at least as far as I&rsquo;ve been able to find out, you will still need to declare your computed field in a <code>hook_views_data()</code>hook to make it a work.</p>
 
-<p>Another really big advantage of computed fields in Drupal 7 was, that the computed values were automatically picked up by Search API, allowing you to add, for example, computed results in your facet search. The good news is that also in Drupal 8, the Search API works with computed fields out of the box!</p>
+<p>Another really big advantage of computed fields in Drupal 7 was, that the computed values were automatically picked up by Search API, allowing you to add, for example, computed results in your facet search. The good news is that this also works in Drupal 8!.</p>
         
             <div id="disqus_thread"></div>
 <script>
