@@ -1,9 +1,9 @@
 	{{ partial "head.html" . }}
-	<body>
+	<body class="home">
 		{{ partial "branding.html" . }}
 		{{ partial "nav.html" . }}
 		<div class="content">
-			<div class="home">
+			<div class="home-content">
 				{{ .Content }}
 				{{ partial "post-list-home.html" . }}
 				{{ partial "pagination.html" . }}

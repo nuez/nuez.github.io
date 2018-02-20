@@ -3,18 +3,17 @@ author: "Teun van Veggel"
 date: 2018-02-15
 title: "How to build a super simple availability calendar."
 weight: 10
-description: "For my website I wanted a mini calendar showing my availability as a freelancer. I used jQuery and the Google Calendar API to build it."
 ---
 
-As a freelancer I like my (potential) clients to be aware of my availability, so we both don't waste our time. To make the calendar as hassle-free as possible I wanted integrate it with Google Calendar, so all it would take is to fill in my availability there.
+As a freelancer I like my (potential) clients to be aware of my availability. I decided to build something that would allow me to fill in my availability in Google Calendar, which would then be displayed in a nice widget on the website.
 
-All I need is a simple view of a calendar, without details of each event: just whether or not I am available for work. I figured that the good ol' jQuery Datepicker would do just fine.
+The widget doesn't need to display anything but whether or not I am available or busy on a certain day. I figured that the good ol' jQuery Datepicker would do perfectly.
 
 So here's what I did.
 
 ### 1. Get an API Key.
 
-Although most of the documentation you find online about authenticating for Google APIs is about OAUTH2 and complicated authentication flows, authenticating for publicly accessible Google content is really simple: all you need is an API key.
+When you google for accessing the Google API, most forums will point you in the direction of the OAUTH2 protocol. Using OAuth would be necessary if we wanted to access restricted content. For accessing publicly accessible content, the Google API is a lot easier. All you need is an URL and an API key.
 
 Go to [https://console.developers.google.com](https://console.developers.google.com) and create a new project. Select ```credentials``` and create an *API Key*.  You can restrict the use of the key although you don't have to. Copy the API key value somewhere: we'll need it in our code.
 
@@ -86,16 +85,12 @@ $(document).ready(function () {
 });
 ```
 
-Fill in the two calendar IDS and your API Key.
-
-On StackOverflow there is loads of information about accessing the Google API using OAUTH2, that one might forget that to access public information all we need is calling a URL: ```https://www.googleapis.com/calendar/v3/calendars/" + calendar_id + "/events?key=" + api_key``` 
-
-We do have to pass our api_key so Google can track the use of their API (and limit it if necessary).
-
-Once we have our event, we add classes to the days in the calendar accordingly, so we can theme it in CSS.
+Fill in the two calendar IDS and your API Key. The script basically fetches the events of one 'busy' calendar I created and one 'free' calendar, and adds classes to our jQuery widget for both.
 
 ### 5. Add the necessary CSS.
 
-In my case I chose to render the DatePicker widget without any shipped CSS: I added the necessary theming myself.
+In my case I chose to render the DatePicker widget without any shipped CSS: I just added the necessary styling myself.
 
-You can see the example [here](/contact).
+This is the result:
+
+<div id="datepicker"></div>
