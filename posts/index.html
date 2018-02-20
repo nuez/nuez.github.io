@@ -160,7 +160,19 @@
     </header>
     
     <div class="excerpt">
-        For my website I wanted a mini calendar showing my availability as a freelancer. I used jQuery and the Google Calendar API to build it.
+        <p>As a freelancer I like my (potential) clients to be aware of my availability. I decided to build something that would allow me to fill in my availability in Google Calendar, which would then be displayed in a nice widget on the website.</p>
+
+<p>The widget doesn&rsquo;t need to display anything but whether or not I am available or busy on a certain day. I figured that the good ol&rsquo; jQuery Datepicker would do perfectly.</p>
+
+<p>So here&rsquo;s what I did.</p>
+
+<h3 id="1-get-an-api-key">1. Get an API Key.</h3>
+
+<p>When you google for accessing the Google API, most forums will point you in the direction of the OAUTH2 protocol. Using OAuth would be necessary if we wanted to access restricted content. For accessing publicly accessible content, the Google API is a lot easier. All you need is an URL and an API key.</p>
+
+<p>Go to <a href="https://console.developers.google.com">https://console.developers.google.com</a> and create a new project. Select <code>credentials</code> and create an <em>API Key</em>.  You can restrict the use of the key although you don&rsquo;t have to. Copy the API key value somewhere: we&rsquo;ll need it in our code.</p>
+
+<p></p>
         <br>
         <a class="btn" href="/posts/calendar-for-freelancers/">
             Read more
@@ -175,14 +187,24 @@
         </h3>
         <div class="meta">
 	
-	<span class="date">October 1, 2017</span> &middot; 4 minute read
+	<span class="date">October 1, 2017</span> &middot; 3 minute read
 	
 </div>
 
     </header>
     
     <div class="excerpt">
-        Drupal allows you to compute your fields instead of fetching them from the database. How easy is that and how well does it integrate with other modules?
+        <p><em>I have updated this post as a result of <a href="https://www.drupal.org/project/drupal/issues/2392845">this</a> issue, that added the  <code>ComputedItemListTrait</code> trait to core.</em></p>
+
+<p>In Drupal 8 we have, on the one hand, field types that have some computed <strong>field properties</strong>, and on the other hand fields that are fully computed.</p>
+
+<p>The former is quite common in Drupal 8: for example the <code>TextItem</code> field type stores the <code>value</code> and the <code>format</code> property in the database, but a third property called <code>processed</code> is computed on the fly.</p>
+
+<p>When it comes to fully computed field items, there are less examples in core. It seems that in Drupal 8.5 the only fully computed field (using an existing field type) is the <code>moderation_state</code> field that the Content Moderation module adds to entities with a moderation workflow.</p>
+
+<p>Since the <code>ComputedItemListTrait</code> was added in <a href="https://www.drupal.org/project/drupal/issues/2392845">this issue</a>, however, it has become quite straightforward to create a fully computed field.</p>
+
+<p></p>
         <br>
         <a class="btn" href="/posts/computed-fields-drupal-8/">
             Read more
@@ -204,7 +226,9 @@
     </header>
     
     <div class="excerpt">
-        When I decided to build my new portfolio website about my Drupal work, I decided to go for Hugo, and not Drupal. Here&rsquo;s why.
+        <p><a href="https://www.drupal.org">Drupal</a> is a full-fledged CMS for secure and complex websites and applications and is adopted by many big companies and governments accross the globe. <a href="https://www.gohugo.io" target="_blank">Hugo</a> is a static site generator built in GoLang that is blazing fast and quickly gaining popularity. For this website about my Drupal work I decided to go for Hugo. Here&rsquo;s why.</p>
+
+<p></p>
         <br>
         <a class="btn" href="/posts/hugo-vs-drupal/">
             Read more

@@ -27,8 +27,6 @@ $(document).ready(function () {
       $.ajax({
         url: "https://www.googleapis.com/calendar/v3/calendars/" + calendar_id + "/events?key=" + api_key,
         success: function (data) {
-          console.log(data);
-          console.log(type);
           data.items.forEach(function (item) {
             var start = new Date(item.start.date);
             var end = new Date(item.end.date);

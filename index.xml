@@ -70,7 +70,7 @@ The original, static HTML pages of the old website were migrated to dynamic and 
       
       <guid>/talks/</guid>
       <description> 
-   About Where When     Test Driven Development in Drupal 8 DrupalCamp Spain 2017, Madrid, Spain November 2017   Test Driven Development in Drupal 8 Meetup Drupal Noord, Groningen, Netherlands February 2017   Entity API in Drupal 7 DrupalCamp Spain 2013, Cáceres, Spain May 2013    </description>
+   About Where When     Configuration Schema in Drupal 8 DrupalDay Spain 2017, Cáceres, Spain November 2017   Test Driven Development in Drupal 8 DrupalCamp Spain 2017, Madrid, Spain May 2017   Test Driven Development in Drupal 8 Meetup Drupal Noord, Groningen, Netherlands February 2017   Entity API in Drupal 7 DrupalCamp Spain 2013, Cáceres, Spain May 2013    </description>
     </item>
     
     <item>
@@ -100,8 +100,17 @@ The original, static HTML pages of the old website were migrated to dynamic and 
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>/posts/computed-fields-drupal-8/</guid>
-      <description>In Drupal 8 we can distinguish between field types that have some computed properties and on the other hand fields that are fully computed.
-The former is quite common in Drupal 8: several field type definitions have computed properties alongside other properties that are stored in the database. For example the TextItem field type stores the value and the format in the database, but a third property processed is computed on the fly.</description>
+      <description>&lt;p&gt;&lt;em&gt;I have updated this post as a result of &lt;a href=&#34;https://www.drupal.org/project/drupal/issues/2392845&#34;&gt;this&lt;/a&gt; issue, that added the  &lt;code&gt;ComputedItemListTrait&lt;/code&gt; trait to core.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;In Drupal 8 we have, on the one hand, field types that have some computed &lt;strong&gt;field properties&lt;/strong&gt;, and on the other hand fields that are fully computed.&lt;/p&gt;
+
+&lt;p&gt;The former is quite common in Drupal 8: for example the &lt;code&gt;TextItem&lt;/code&gt; field type stores the &lt;code&gt;value&lt;/code&gt; and the &lt;code&gt;format&lt;/code&gt; property in the database, but a third property called &lt;code&gt;processed&lt;/code&gt; is computed on the fly.&lt;/p&gt;
+
+&lt;p&gt;When it comes to fully computed field items, there are less examples in core. It seems that in Drupal 8.5 the only fully computed field (using an existing field type) is the &lt;code&gt;moderation_state&lt;/code&gt; field that the Content Moderation module adds to entities with a moderation workflow.&lt;/p&gt;
+
+&lt;p&gt;Since the &lt;code&gt;ComputedItemListTrait&lt;/code&gt; was added in &lt;a href=&#34;https://www.drupal.org/project/drupal/issues/2392845&#34;&gt;this issue&lt;/a&gt;, however, it has become quite straightforward to create a fully computed field.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -110,8 +119,9 @@ The former is quite common in Drupal 8: several field type definitions have comp
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>/posts/hugo-vs-drupal/</guid>
-      <description>Drupal is a full-fledged CMS for secure and complex websites and applications and is adopted by many big companies and governments accross the globe. Hugo is a static site generator built in GoLang that is blazing fast and quickly gaining popularity. For this website about my Drupal work I decided to go for Hugo. Here&amp;rsquo;s why.
-When I started building my new portfolio website, I decided to look further than Drupal to build it.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.drupal.org&#34;&gt;Drupal&lt;/a&gt; is a full-fledged CMS for secure and complex websites and applications and is adopted by many big companies and governments accross the globe. &lt;a href=&#34;https://www.gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; is a static site generator built in GoLang that is blazing fast and quickly gaining popularity. For this website about my Drupal work I decided to go for Hugo. Here&amp;rsquo;s why.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
