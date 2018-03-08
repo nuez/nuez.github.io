@@ -1,7 +1,7 @@
 <article>
     <header>
         <a class="post-link" href="{{ .Permalink }}">
-            <h1 class="title">{{ .Title }}</h1>
+            <h2 class="title">{{ .Title }}</h2>
         </a>
         {{ partial "post-meta" . }}
         {{ if isset .Params "subtitle" }}
