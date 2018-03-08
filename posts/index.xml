@@ -13,10 +13,10 @@
     
     <item>
       <title>How to unit test methods that create entities in Drupal.</title>
-      <link>/posts/mock-creating-entities/</link>
+      <link>/posts/how-to-unit-test-methods-that-create-entities/</link>
       <pubDate>Thu, 08 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/posts/mock-creating-entities/</guid>
+      <guid>/posts/how-to-unit-test-methods-that-create-entities/</guid>
       <description>&lt;p&gt;Recently I tried to create a Unit test for a Drupal service that creates and returns entities. &lt;strong&gt;In my test I wanted to check if the field values that were used for creating those entities were matching my assertions.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;In Drupal , the static &lt;code&gt;::create&lt;/code&gt; method of any content entity returns the created entity. In my unit test, checking the returned entity for values would be a hassle, as I would have to mock and stub my way through all the services that it relies on to fetch those values. More useful would be to mock the entity and let the  &lt;code&gt;::create()&lt;/code&gt; method return the values that were just passed as arguments.&lt;/p&gt;
