@@ -46,7 +46,7 @@ class ComputedField extends FieldItemList implements FieldItemListInterface {
   /**
    * Compute the values.
    */
-  protected function computeValues(){
+  protected function computeValue(){
     $some_calculated_values = [1,2,3];
     foreach($some_calculated_values as $delta => $value){
       $this->list[$delta] = $this->createItem($delta, $value);
