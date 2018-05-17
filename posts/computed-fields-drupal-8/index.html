@@ -7,7 +7,7 @@
 	<meta name="author" content="Teun van Veggel">
 	<meta name="description" content="I am an independent **Drupal specialist** with over 7 years of experience building websites and web applications.">
 	<meta name="keywords" content="drupal, web development">
-	<meta name="generator" content="Hugo 0.36" />
+	<meta name="generator" content="Hugo 0.40.1" />
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.0/normalize.css">
@@ -148,7 +148,9 @@
     </header>
     
     <section class="post-content">
-        <p><em>I have updated this post as a result of <a href="https://www.drupal.org/project/drupal/issues/2392845">the issue (https://www.drupal.org/project/drupal/issues/2392845)</a> that added the  <code>ComputedItemListTrait</code> trait to core.</em></p>
+        
+
+<p><em>I have updated this post as a result of <a href="https://www.drupal.org/project/drupal/issues/2392845">the issue (https://www.drupal.org/project/drupal/issues/2392845)</a> that added the  <code>ComputedItemListTrait</code> trait to core.</em></p>
 
 <p>In Drupal 8 we have on the one hand field types with some computed <strong>field properties</strong>, and on the other hand fields that are fully computed.</p>
 
@@ -187,7 +189,7 @@ function your_module_entity_base_field_info_alter(&amp;$fields, EntityTypeInterf
   /**
    * Compute the values.
    */
-  protected function computeValues(){
+  protected function computeValue(){
     $some_calculated_values = [1,2,3];
     foreach($some_calculated_values as $delta =&gt; $value){
       $this-&gt;list[$delta] = $this-&gt;createItem($delta, $value);
@@ -207,7 +209,8 @@ function your_module_entity_base_field_info_alter(&amp;$fields, EntityTypeInterf
 
 <p>In Drupal 8, at least as far as I&rsquo;ve been able to find out, you will still need to declare your computed field in a <code>hook_views_data()</code>hook to make it a work.</p>
 
-<p>Another really big advantage of computed fields in Drupal 7 was, that the computed values were automatically picked up by Search API, allowing you to add, for example, computed results in your facet search. The good news is that this also works in Drupal 8!.</p>
+<p>Another really big advantage of computed fields in Drupal 7 was, that the computed values were automatically picked up by Search API, allowing you to add, for example, computed results in your facet search. The good news is that this also works in Drupal 8!.</p>al 8!.</p>
+
         
             <div id="disqus_thread"></div>
 <script>
