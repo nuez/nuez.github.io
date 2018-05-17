@@ -160,8 +160,8 @@
     </header>
     
     <div class="excerpt">
-        Recently I tried to create a Unit test for a class (Drupal service) that creates and returns content entities, say called Foo. In my unit test, all I wanted to do is check if my class method (my Subject Under Test) generates the right amount of Foo entities and if those Foo entities hold the field values I expect.
-My unit test will execute the method, and therefore create Foo, using the static Foo::create() method.
+        Recently I tried to create a Unit test for a Drupal service that creates and returns entities. In my test I wanted to check if the field values that were used for creating those entities were matching my assertions.
+In Drupal , the static ::create method of any content entity returns the created entity. In my unit test, checking the returned entity for values would be a hassle, as I would have to mock and stub my way through all the services that it relies on to fetch those values.
         <br>
         <a class="btn" href="/posts/how-to-unit-test-methods-that-create-and-return-drupal-entities/">
             Read more
@@ -176,15 +176,26 @@ My unit test will execute the method, and therefore create Foo, using the static
         </h2>
         <div class="meta">
 	
-	<span class="date">February 15, 2018</span> &middot; 3 minute read
+	<span class="date">February 15, 2018</span> &middot; 0 minute read
 	
 </div>
 
     </header>
     
     <div class="excerpt">
-        As a freelancer I like my (potential) clients to be aware of my availability. I decided to build something that would allow me to fill in my availability in Google Calendar, which would then be displayed in a nice widget on the website.
-The widget doesn&rsquo;t need to display anything but whether or not I am available or busy on a certain day. I figured that the good ol&rsquo; jQuery Datepicker would do perfectly.
+        <p>As a freelancer I like my (potential) clients to be aware of my availability. I decided to build something that would allow me to fill in my availability in Google Calendar, which would then be displayed in a nice widget on the website.</p>
+
+<p>The widget doesn&rsquo;t need to display anything but whether or not I am available or busy on a certain day. I figured that the good ol&rsquo; jQuery Datepicker would do perfectly.</p>
+
+<p>So here&rsquo;s what I did.</p>
+
+<h3 id="1-get-an-api-key">1. Get an API Key.</h3>
+
+<p>When you google for accessing the Google API, most forums will point you in the direction of the OAUTH2 protocol. Using OAuth would be necessary if we wanted to access restricted content. For accessing publicly accessible content, the Google API is a lot easier. All you need is an URL and an API key.</p>
+
+<p>Go to <a href="https://console.developers.google.com">https://console.developers.google.com</a> and create a new project. Select <code>credentials</code> and create an <em>API Key</em>.  You can restrict the use of the key although you don&rsquo;t have to. Copy the API key value somewhere: we&rsquo;ll need it in our code.</p>
+
+<p></p>
         <br>
         <a class="btn" href="/posts/calendar-for-freelancers/">
             Read more

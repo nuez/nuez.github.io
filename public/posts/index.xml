@@ -17,8 +17,8 @@
       <pubDate>Thu, 08 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/posts/how-to-unit-test-methods-that-create-and-return-drupal-entities/</guid>
-      <description>Recently I tried to create a Unit test for a class (Drupal service) that creates and returns content entities, say called Foo. In my unit test, all I wanted to do is check if my class method (my Subject Under Test) generates the right amount of Foo entities and if those Foo entities hold the field values I expect.
-My unit test will execute the method, and therefore create Foo, using the static Foo::create() method.</description>
+      <description>Recently I tried to create a Unit test for a Drupal service that creates and returns entities. In my test I wanted to check if the field values that were used for creating those entities were matching my assertions.
+In Drupal , the static ::create method of any content entity returns the created entity. In my unit test, checking the returned entity for values would be a hassle, as I would have to mock and stub my way through all the services that it relies on to fetch those values.</description>
     </item>
     
     <item>
