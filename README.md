@@ -4,5 +4,5 @@ This is my personal website built in Hugo. The code is hosted on Github pages, H
 
 ## Instructions
 
-``` git add public && git commit -m "New content" ```
-``` git subtree push --prefix public origin master ```
+1. Commit to source
+2. Run ```"./deploy.sh "Your optional commit message"```
