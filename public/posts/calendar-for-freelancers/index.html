@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<title>How to build a super simple availability calendar. &middot; Hi, I am Teun [nuez]</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Teun van Veggel">
+	<meta name="description" content="I am an independent **Drupal specialist** with over 7 years of experience building websites and web applications.">
+	<meta name="keywords" content="drupal, web development">
+	<meta name="generator" content="Hugo 0.40.1" />
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.0/normalize.css">
+	<link rel="stylesheet" href="/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="//images/favicon.png" type="image/x-icon">
+
+	<!-- RSS -->
+	
+
+	<!-- Font Awesome -->
+	<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Google Fonts -->
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="/js/script.js"></script>
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/agate.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body>
+	<div class="branding">
+    <a href="/"><div class="photo"></div>
+    </a>
+    <div class="site-title">
+        <a href="/">Hi, I am Teun [nuez]</a>
+    </div>
+
+    <div class="site-description">
+    I am an independent <strong>Drupal specialist</strong> with over 7 years of experience building websites and web applications.
+    </div>
+
+    <a href="/contact" class="btn">Hire me</a>
+</div>
+	<button class="hamburger hamburger--collapse" type="button">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+</button>
+<header class="site-header">
+    
+
+    <nav class="site-nav">
+        <ul>
+            <li><a  href="/posts/"> Posts </a></li><li><a  href="/projects/"> Projects </a></li><li><a  href="/testimonies/"> Quotes </a></li><li><a  href="/talks/"> Talks </a></li><li><a  href="/contact/"> Hire me </a></li>
+            <li>
+                <ul>
+                    
+
+<li class="icon">
+	<a href="/index.xml" title="Subcribe">
+		<i class="fa fa-fw fa-rss"></i>
+	</a>
+</li>
+
+<li class="icon">
+	<a href="mailto:teun@nuezweb.com" title="Email">
+		<i class="fa fa-fw fa-envelope"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+<li class="icon">
+	<a href="https://github.com/nuez" title="GitHub">
+		<i class="fa fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+<li class="icon">
+	<a href="https://www.linkedin.com/in/teunvanveggel" title="LinkedIn">
+		<i class="fa fa-fw fa-linkedin"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="icon">
+	<a href="https://twitter.com/nuezweb" title="Twitter">
+		<i class="fa fa-fw fa-twitter"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+	<div class="content">
+		<article>
+    <header>
+        
+        <h1 class="title">How to build a super simple availability calendar.</h1>
+        <div class="meta">
+	
+	<span class="date">February 15, 2018</span> &middot; 3 minute read
+	
+</div>
+
+        
+    </header>
+    
+    <section class="post-content">
+        
+
+<p>As a freelancer I like my (potential) clients to be aware of my availability. I decided to build something that would allow me to fill in my availability in Google Calendar, which would then be displayed in a nice widget on the website.</p>
+
+<p>The widget doesn&rsquo;t need to display anything but whether or not I am available or busy on a certain day. I figured that the good ol&rsquo; jQuery Datepicker would do perfectly.</p>
+
+<p>So here&rsquo;s what I did.</p>
+
+<h3 id="1-get-an-api-key">1. Get an API Key.</h3>
+
+<p>When you google for accessing the Google API, most forums will point you in the direction of the OAUTH2 protocol. Using OAuth would be necessary if we wanted to access restricted content. For accessing publicly accessible content, the Google API is a lot easier. All you need is an URL and an API key.</p>
+
+<p>Go to <a href="https://console.developers.google.com">https://console.developers.google.com</a> and create a new project. Select <code>credentials</code> and create an <em>API Key</em>.  You can restrict the use of the key although you don&rsquo;t have to. Copy the API key value somewhere: we&rsquo;ll need it in our code.</p>
+
+<p></p>
+
+<h3 id="2-create-a-public-calendar">2. Create a public calendar.</h3>
+
+<p><img src="/images/calendar/google_settings.jpg" alt="alt text" title="Calendar Settings" />;</p>
+
+<p>Create a new calendar in your google calendar and set it to <em>public</em>.</p>
+
+<p><img src="/images/calendar/google_calendar_id.jpg" alt="alt text" title="Calendar ID" /></p>
+
+<p>Copy the <em>Calendar ID</em>, we&rsquo;ll need it later.</p>
+
+<p>In my case I created two calendars, one to display the dates that I am available, and the other for my &lsquo;busy calendar&rsquo;.</p>
+
+<h3 id="3-add-the-following-html-to-your-page">3. Add the following HTML to your page.</h3>
+
+<p><code>&lt;div id=&quot;datepicker&quot;&gt;&lt;/div&gt;</code></p>
+
+<p>And add the jQuery dependencies to the HEAD of your page.</p>
+
+<pre><code class="language-html">&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js&quot;&gt;&lt;/script&gt;
+
+</code></pre>
+
+<h3 id="4-add-the-following-javascript-to-your-page">4. Add the following Javascript to your page.</h3>
+
+<pre><code>$(document).ready(function () {
+  $(&quot;#datepicker&quot;).datepicker({
+    numberOfMonths: [3, 1],
+    onChangeMonthYear: function () {
+      setCalendar();
+    },
+    onSelect: function(){
+      setCalendar();
+    }
+  });
+
+  setCalendar();
+
+  function setCalendar() {
+    var api_key = '&lt;GOOGLE API KEY&gt;';
+    var calendars = {
+      free: '&lt;CALENDAR_ID_FREE&gt;',
+      busy: '&lt;CALENDAR_ID_BUSY&gt;',
+    };
+    $.each(calendars, function (type, calendar_id) {
+      $.ajax({
+        url: &quot;https://www.googleapis.com/calendar/v3/calendars/&quot; + calendar_id + &quot;/events?key=&quot; + api_key,
+        success: function (data) {
+          data.items.forEach(function (item) {
+            var start = new Date(item.start.date);
+            var end = new Date(item.end.date);
+            do {
+              $('td[data-year=&quot;' + start.getFullYear() + '&quot;][data-month=&quot;' + start.getMonth() + '&quot;] a').filter(function () {
+                return $(this).text() == start.getDate();
+              }).addClass(type);
+              start.setDate(start.getDate() + 1);
+            } while (start.getTime() !== end.getTime());
+          });
+        }
+      });
+    });
+  }
+});
+</code></pre>
+
+<p>Fill in the two calendar IDS and your API Key. The script basically fetches the events of one &lsquo;busy&rsquo; calendar I created and one &lsquo;free&rsquo; calendar, and adds classes to our jQuery widget for both.</p>
+
+<h3 id="5-add-the-necessary-css">5. Add the necessary CSS.</h3>
+
+<p>In my case I chose to render the DatePicker widget without any shipped CSS: I just added the necessary styling myself.</p>
+
+<p>This is the result:</p>
+
+<div id="datepicker"></div>er"></div>
+
+        
+            <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "nuez" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+
+    </section>
+</article>
+	</div>
+
+	<footer class="site-footer">
+	<p class="text">&copy; 2018 - Teun van Veggel</p>
+</footer>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-107417893-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+</body>
+</html>
