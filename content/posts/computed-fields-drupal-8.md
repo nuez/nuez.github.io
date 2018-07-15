@@ -3,6 +3,7 @@ author: "Teun van Veggel"
 date: 2017-10-01
 title: "Create computed fields in Drupal 8."
 weight: 10
+tags: ["Drupal"]
 ---
 
 *I have updated this post as a result of [the issue (https://www.drupal.org/project/drupal/issues/2392845)](https://www.drupal.org/project/drupal/issues/2392845) that added the  ```ComputedItemListTrait``` trait to core.*

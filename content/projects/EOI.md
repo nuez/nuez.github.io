@@ -3,7 +3,6 @@ title: "EOI Business School"
 description: The new website for one the oldest business schools in Spain, including the migration of hundreds of thousands of contents from Liferay to Drupal.
 image: "eoi.png"
 background: "eoi_bg.png"
-tags: ["Drupal", "Liferay-to-drupal", "Salesforce integration", "Amazon AWS"]
 weight: 1
 draft: false
 date: 2017-09-01

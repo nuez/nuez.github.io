@@ -3,6 +3,7 @@ author: "Teun van Veggel"
 date: 2017-08-01
 title: "Hugo vs Drupal: Why I used Hugo for my Drupal portfolio website."
 weight: 10
+tags: ["Drupal"]
 ---
 
 <a href="https://www.drupal.org">Drupal</a> is a full-fledged CMS for secure and complex websites and applications and is adopted by many big companies and governments accross the globe. <a href="https://www.gohugo.io" target="_blank">Hugo</a> is a static site generator built in GoLang that is blazing fast and quickly gaining popularity. For this website about my Drupal work I decided to go for Hugo. Here's why.

@@ -37,13 +37,19 @@ a.btn {
   }
 }
 
+
+hr{
+margin: 3em 0;
+	border: 1px solid $border-color;
+}
+
 .excerpt,
 p {
   font-family: $body-font;
   color: $main-color;
   font-weight: 300;
 
-  line-height: 1.4;
+  line-height: 1.8;
 }
 
 .home {
@@ -119,9 +125,12 @@ body {
     padding-bottom: $padding;
   }
   blockquote {
+		margin: 2em 1em;
     padding-left: 1em;
-    margin-left: 0;
     border-left: 2px solid $secondary-color;
+		p{
+			margin:0;
+		}
   }
   a {
     color: $main-color;
@@ -537,12 +546,32 @@ form {
 }
 
 .post-content > table {
+	border:1px solid $border-color;
+	border-collapse: separate;
+	border-spacing: 0px;
+	border-radius: 3px;
+	box-shadow:rgba(0,0,0,.3) 0 0 3px 0px;
+	background:#3C3C45;
+	border-color:#555;
   width: 100%;
   tr {
+		th{
+			color:#aaa;
+			font-weight:normal;
+		}
+		td{
+			color:white;
+			border-right:1px solid #555;
+			a{color:white;}
+			&:last-child{
+				border-right: none;
+			}
+		}
     th, td {
+			font-size:.9em;
+			padding:1em;
       text-align: left;
-      border-bottom: 1px solid $border-color;
-      padding: 10px;
+      border-bottom: 1px solid #555;
     }
   }
 }

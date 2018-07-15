@@ -2,6 +2,7 @@
 author: "Teun van Veggel"
 date: 2018-03-08
 title: "How to unit test methods that create and return entities in Drupal."
+tags: ["Drupal"]
 weight: 10
 ---
 

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drupal on Hi, I am Teun [nuez]</title>
+    <link>/tags/drupal/</link>
+    <description>Recent content in Drupal on Hi, I am Teun [nuez]</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/drupal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>EOI Business School</title>
+      <link>/projects/eoi/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/eoi/</guid>
+      <description>For this project I was lead developer and product owner, working together with FrontID In the first phase of this project we defined and built a new, sustainable, architecture in Drupal and migrated hundreds of thousands of contents coming from LifeRay.
+The original, static HTML pages of the old website were migrated to dynamic and flexible pages: site editors can now create slideshows, tabs and accordions on the fly and drag and drop them freely into the design without any requiring programming knowledge.</description>
+    </item>
+    
+  </channel>
+</rss>
