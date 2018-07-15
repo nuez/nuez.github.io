@@ -68,6 +68,11 @@
   </url>
   
   <url>
+    <loc>/posts/saving-configuration-to-a-content-entity/</loc>
+    <lastmod>2018-05-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/contact/</loc>
   </url>
   
@@ -92,12 +97,6 @@
   </url>
   
   <url>
-    <loc>/tags/amazon-aws/</loc>
-    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/best-practices/</loc>
     <lastmod>2017-11-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -110,7 +109,7 @@
   
   <url>
     <loc>/tags/drupal/</loc>
-    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -133,20 +132,8 @@
   </url>
   
   <url>
-    <loc>/tags/liferay-to-drupal/</loc>
-    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/salesforce-integration/</loc>
-    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/</loc>
-    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
