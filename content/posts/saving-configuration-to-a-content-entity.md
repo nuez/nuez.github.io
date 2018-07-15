@@ -53,7 +53,7 @@ By implementing the ```ConfigurablePluginInterface``` and the ```PluginFormInter
 
 The 'PluginSelectWidget' provided by Commerce will automatically render the correct plugin configuration form using ajax, depending on the plugin selected. 
 
-<img src="/images/shapes.gif" alt="Screenshot GIF Shapes module"/>
+<img src="https://nuez.io/images/shapes.gif" alt="Screenshot GIF Shapes module"/>
 
 
 You can try it out downloading the repo from: https://github.com/nuez/shapes
