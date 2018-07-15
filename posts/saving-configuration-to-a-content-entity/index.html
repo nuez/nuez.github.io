@@ -150,7 +150,7 @@
     <section class="post-content">
         <p>In one of my projects I found myself needing to save configuration (coming from a plugin) to <strong>content entities</strong>. In Drupal however, configuration is saved to <strong>configuration entities</strong> (or <strong>configuration objects</strong>).</p>
 
-<p>If Drupal provides solid solutions for configuration, maybe **the problem I was trying to solve was an <strong><em><a href="XY problem">http://xyproblem.info/</a></em></strong>? (Was I trying to find the answer to the wrong question?) Even the <a href="https://www.drupal.org/docs/8/configuration-management">documentation on configuration management</a> suggested content had nothing to do with configuration:</p>
+<p>If Drupal provides solid solutions for configuration, maybe the problem I was trying to solve was an <strong><em><a href="http://xyproblem.info/">XY problem</a></em></strong>? (Was I trying to find the answer to the wrong question?) Even the <a href="https://www.drupal.org/docs/8/configuration-management">documentation on configuration management</a> suggested content had nothing to do with configuration:</p>
 
 <blockquote>
 <p>Configuration is the collection of admin settings that determine how the site functions, <strong>as opposed to the content of the site.</strong></p>
@@ -158,9 +158,9 @@
 
 <p>However, I discovered that several contrib modules have come across the same need to <strong>save configuration to</strong> <strong><em>content entities</em></strong> and have solved this problem in different ways.</p>
 
-<p>Many modules have custom field types saving some sort of configuration, like the <a href="https://www.drupal.org/project/viewsreference">Views Reference</a> module that saves configuration linked to a specific View to a <code>string</code> property belonging to field type made for the purpose. Some modules actually have generic solutions that one could easily integrate in their own module: the <a href="https://www.drupal.org/project/plugin">Plugin</a> module and <a href="https://www.drupal.org/project/commerce">Commerce</a> come up with an agnostic field type for saving plugin configuration of any type.</p>
+<p>Like the <a href="https://www.drupal.org/project/viewsreference">Views Reference</a> module that saves configuration linked to a specific View to a <code>string</code> property belonging to field type made for the purpose. Other modules actually provide generic solutions that you could easily integrate in their own module: the <a href="https://www.drupal.org/project/plugin">Plugin</a> module and <a href="https://www.drupal.org/project/commerce">Commerce</a> come up with an agnostic field type for saving plugin configuration of any type.</p>
 
-<p>In this post I will try to explain the use case with an example module.</p>
+<p>In this post I will try to explain the way this works with an example module.</p>
 
 <p></p>
 
