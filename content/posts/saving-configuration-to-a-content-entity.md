@@ -8,15 +8,15 @@ tags: ["Drupal"]
 
 In one of my projects I found myself needing to save configuration (coming from a plugin) to **content entities**. In Drupal however, configuration is saved to **configuration entities** (or **configuration objects**).
 
-If Drupal provides solid solutions for configuration, maybe **the problem I was trying to solve was an ***[http://xyproblem.info/](XY problem)***? (Was I trying to find the answer to the wrong question?) Even the [documentation on configuration management](https://www.drupal.org/docs/8/configuration-management) suggested content had nothing to do with configuration:
+If Drupal provides solid solutions for configuration, maybe the problem I was trying to solve was an ***[XY problem](http://xyproblem.info/)***? (Was I trying to find the answer to the wrong question?) Even the [documentation on configuration management](https://www.drupal.org/docs/8/configuration-management) suggested content had nothing to do with configuration:
 
 > Configuration is the collection of admin settings that determine how the site functions, **as opposed to the content of the site.**
 
 However, I discovered that several contrib modules have come across the same need to **save configuration to** ***content entities*** and have solved this problem in different ways.
 
-Many modules have custom field types saving some sort of configuration, like the [Views Reference](https://www.drupal.org/project/viewsreference) module that saves configuration linked to a specific View to a ```string``` property belonging to field type made for the purpose. Some modules actually have generic solutions that one could easily integrate in their own module: the [Plugin](https://www.drupal.org/project/plugin) module and [Commerce](https://www.drupal.org/project/commerce) come up with an agnostic field type for saving plugin configuration of any type.
+Like the [Views Reference](https://www.drupal.org/project/viewsreference) module that saves configuration linked to a specific View to a ```string``` property belonging to field type made for the purpose. Other modules actually provide generic solutions that you could easily integrate in their own module: the [Plugin](https://www.drupal.org/project/plugin) module and [Commerce](https://www.drupal.org/project/commerce) come up with an agnostic field type for saving plugin configuration of any type.
 
-In this post I will try to explain the use case with an example module.
+In this post I will try to explain the way this works with an example module.
 
 <!--more-->
 
