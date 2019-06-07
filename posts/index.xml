@@ -80,14 +80,14 @@
     </item>
     
     <item>
-      <title>Saving configuration to a content entity.</title>
+      <title>Saving Configuration to a content entity.</title>
       <link>/posts/saving-configuration-to-a-content-entity/</link>
       <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/posts/saving-configuration-to-a-content-entity/</guid>
-      <description>&lt;p&gt;In one of my projects I wanted to save configuration (coming from a plugin) to &lt;strong&gt;content entities&lt;/strong&gt;. In Drupal however, configuration is saved to &lt;strong&gt;configuration entities&lt;/strong&gt; (or &lt;strong&gt;configuration objects&lt;/strong&gt;) and managed using the very solid configuration management tools.&lt;/p&gt;
+      <description>&lt;p&gt;In one of my projects I found myself needing to save configuration (coming from a plugin) to &lt;strong&gt;content entities&lt;/strong&gt;. In Drupal however, configuration is saved to &lt;strong&gt;configuration entities&lt;/strong&gt; (or &lt;strong&gt;configuration objects&lt;/strong&gt;).&lt;/p&gt;
 
-&lt;p&gt;If Drupal provides solid solutions for configuration, maybe the problem I was trying to solve was an &lt;strong&gt;&lt;em&gt;&lt;a href=&#34;http://xyproblem.info/&#34;&gt;XY problem&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;? Was I trying to find the answer to the wrong question? Even the &lt;a href=&#34;https://www.drupal.org/docs/8/configuration-management&#34;&gt;documentation on configuration management&lt;/a&gt; suggested content had nothing to do with configuration:&lt;/p&gt;
+&lt;p&gt;If Drupal provides solid solutions for configuration, maybe the problem I was trying to solve was an &lt;strong&gt;&lt;em&gt;&lt;a href=&#34;http://xyproblem.info/&#34;&gt;XY problem&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;? (Was I trying to find the answer to the wrong question?) Even the &lt;a href=&#34;https://www.drupal.org/docs/8/configuration-management&#34;&gt;documentation on configuration management&lt;/a&gt; suggested content had nothing to do with configuration:&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;Configuration is the collection of admin settings that determine how the site functions, &lt;strong&gt;as opposed to the content of the site.&lt;/strong&gt;&lt;/p&gt;
@@ -95,9 +95,9 @@
 
 &lt;p&gt;However, I discovered that several contrib modules have come across the same need to &lt;strong&gt;save configuration to&lt;/strong&gt; &lt;strong&gt;&lt;em&gt;content entities&lt;/em&gt;&lt;/strong&gt; and have solved this problem in different ways.&lt;/p&gt;
 
-&lt;p&gt;For example, the &lt;a href=&#34;https://www.drupal.org/project/viewsreference&#34;&gt;Views Reference&lt;/a&gt; module saves configuration for rendering a View to a serialized &lt;code&gt;string&lt;/code&gt; that is part of a custom Field Type. Other modules provide generic solutions that you could easily implement in your own module: the &lt;a href=&#34;https://www.drupal.org/project/plugin&#34;&gt;Plugin&lt;/a&gt; module and &lt;a href=&#34;https://www.drupal.org/project/commerce&#34;&gt;Commerce&lt;/a&gt; come up with an agnostic field type for saving plugin configuration of any type.&lt;/p&gt;
+&lt;p&gt;Like the &lt;a href=&#34;https://www.drupal.org/project/viewsreference&#34;&gt;Views Reference&lt;/a&gt; module that saves configuration linked to a specific View to a &lt;code&gt;string&lt;/code&gt; property belonging to field type made for the purpose. Other modules actually provide generic solutions that you could easily integrate in their own module: the &lt;a href=&#34;https://www.drupal.org/project/plugin&#34;&gt;Plugin&lt;/a&gt; module and &lt;a href=&#34;https://www.drupal.org/project/commerce&#34;&gt;Commerce&lt;/a&gt; come up with an agnostic field type for saving plugin configuration of any type.&lt;/p&gt;
 
-&lt;p&gt;In this post I will try to explain how this works using an example module.&lt;/p&gt;
+&lt;p&gt;In this post I will try to explain the way this works with an example module.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>

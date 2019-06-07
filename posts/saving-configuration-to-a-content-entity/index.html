@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-	<title>Saving configuration to a content entity. &middot; Hi, I am Teun [nuez]</title>
+	<title>Saving Configuration to a content entity. &middot; Hi, I am Teun [nuez]</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Teun van Veggel">
@@ -137,7 +137,7 @@
 		<article>
     <header>
         
-        <h1 class="title">Saving configuration to a content entity.</h1>
+        <h1 class="title">Saving Configuration to a content entity.</h1>
         <div class="meta">
 	
 	<span class="date">May 25, 2018</span> &middot; 4 minute read
@@ -148,9 +148,9 @@
     </header>
     
     <section class="post-content">
-        <p>In one of my projects I wanted to save configuration (coming from a plugin) to <strong>content entities</strong>. In Drupal however, configuration is saved to <strong>configuration entities</strong> (or <strong>configuration objects</strong>) and managed using the very solid configuration management tools.</p>
+        <p>In one of my projects I found myself needing to save configuration (coming from a plugin) to <strong>content entities</strong>. In Drupal however, configuration is saved to <strong>configuration entities</strong> (or <strong>configuration objects</strong>).</p>
 
-<p>If Drupal provides solid solutions for configuration, maybe the problem I was trying to solve was an <strong><em><a href="http://xyproblem.info/">XY problem</a></em></strong>? Was I trying to find the answer to the wrong question? Even the <a href="https://www.drupal.org/docs/8/configuration-management">documentation on configuration management</a> suggested content had nothing to do with configuration:</p>
+<p>If Drupal provides solid solutions for configuration, maybe the problem I was trying to solve was an <strong><em><a href="http://xyproblem.info/">XY problem</a></em></strong>? (Was I trying to find the answer to the wrong question?) Even the <a href="https://www.drupal.org/docs/8/configuration-management">documentation on configuration management</a> suggested content had nothing to do with configuration:</p>
 
 <blockquote>
 <p>Configuration is the collection of admin settings that determine how the site functions, <strong>as opposed to the content of the site.</strong></p>
@@ -158,9 +158,9 @@
 
 <p>However, I discovered that several contrib modules have come across the same need to <strong>save configuration to</strong> <strong><em>content entities</em></strong> and have solved this problem in different ways.</p>
 
-<p>For example, the <a href="https://www.drupal.org/project/viewsreference">Views Reference</a> module saves configuration for rendering a View to a serialized <code>string</code> that is part of a custom Field Type. Other modules provide generic solutions that you could easily implement in your own module: the <a href="https://www.drupal.org/project/plugin">Plugin</a> module and <a href="https://www.drupal.org/project/commerce">Commerce</a> come up with an agnostic field type for saving plugin configuration of any type.</p>
+<p>Like the <a href="https://www.drupal.org/project/viewsreference">Views Reference</a> module that saves configuration linked to a specific View to a <code>string</code> property belonging to field type made for the purpose. Other modules actually provide generic solutions that you could easily integrate in their own module: the <a href="https://www.drupal.org/project/plugin">Plugin</a> module and <a href="https://www.drupal.org/project/commerce">Commerce</a> come up with an agnostic field type for saving plugin configuration of any type.</p>
 
-<p>In this post I will try to explain how this works using an example module.</p>
+<p>In this post I will try to explain the way this works with an example module.</p>
 
 <p></p>
 
@@ -200,9 +200,9 @@
 
 <p>The <a href="https://www.drupal.org/project/plugin">Plugin</a> and <a href="https://www.drupal.org/project/commerce">Commerce</a> modules both implement an almost identical way of saving configuration to content entities: they both provide a new <em>field type</em> for saving plugin Configuration and use &lsquo;derivatives&rsquo; for the specific Plugin types to use for each field <sup id="a1"><a href="#f1">1</a></sup>.</p>
 
-<p>To illustrate this, I&rsquo;ve created a module called <a href="https://github.com/nuez/shapes">&lsquo;Shapes&rsquo;</a> implementing the Field type provided by the Commerce module (but it could just as easily have been Plugin module). In my module, a user with the right permissions will be allowed to create new &lsquo;Shape&rsquo; content entities (as many as he or she likes). The eligible shapes are plugins of type &lsquo;Shape&rsquo;. The currently available shapes are: circle, ellipse, rectangle and star. Any new shape would just be a matter of adding the Plugin for that particular shape.</p>
+<p>To illustrate this, I&rsquo;ve created a module called <a href="https://github.com/nuez/shapes">&lsquo;Shapes&rsquo;</a> which is using the &lsquo;Commerce&rsquo; module (but could just as easily have used the Plugin module). A user with the right permissions will be allowed to create new &lsquo;Shape&rsquo; entities (as many as he or she likes). The eligible shapes are plugins of type &lsquo;Shape&rsquo; and the currently available shapes are: circle, ellipse, rectangle and star. Any new shape would just be a matter of adding the Plugin for that particular shape.</p>
 
-<p>Each &lsquo;shape&rsquo; plugin instance requires an array of configuration. In case of the circle it&rsquo;s a &lsquo;radius&rsquo;, the ellipse requires the &lsquo;X radius&rsquo; and the &lsquo;Y radius&rsquo;, the rectangle the &lsquo;height&rsquo; and the &lsquo;width&rsquo; and the Star requires an &lsquo;inner radius&rsquo;, &lsquo;outer radius&rsquo; and the &lsquo;amount of points&rsquo; for the star. As you can see the configuration for each of these shapes could be quite arbitrary.</p>
+<p>Each &lsquo;shape&rsquo; plugin instance requires configuration. In case of the circle it&rsquo;s a &lsquo;radius&rsquo;, in case of the ellipse it&rsquo;s the &lsquo;X radius&rsquo; and the &lsquo;Y radius&rsquo;, in case of the rectangle it&rsquo;s the &lsquo;height&rsquo; and the &lsquo;width&rsquo; and in case of the Star it&rsquo;s the &lsquo;inner radius&rsquo;, &lsquo;outer radius&rsquo; and the &lsquo;amount of points&rsquo;. As you can see the configuration for each of these shapes could be quite arbitrary.</p>
 
 <p>In order to save the configuration we have to add a field of type <code>commerce_plugin_item</code> to a content entity. Note that  behind the colon you find the derivative of the field type for our &lsquo;Shape&rsquo; plugin type.</p>
 
@@ -212,7 +212,7 @@
       -&gt;setDisplayConfigurable('form', TRUE);
 </code></pre>
 
-<p>By implementing the <code>ConfigurablePluginInterface</code> and the <code>PluginFormInterface</code> which are also required for any &lsquo;regular&rsquo; configurable plugin (such as Image effects, Blocks etc), you are forced to implement the methods needed for the form element of the configuration.</p>
+<p>By implementing the <code>ConfigurablePluginInterface</code> and the <code>PluginFormInterface</code> which are also required for any &lsquo;regular&rsquo; configurable plugin (such as Image effects, Blocks etc), you are required to implement the methods needed for the form element of the configuration.</p>
 
 <p>The &lsquo;PluginSelectWidget&rsquo; provided by Commerce will automatically render the correct plugin configuration form using ajax, depending on the plugin selected.</p>
 
@@ -226,7 +226,7 @@
 
 <p>Would it be worth it to have a dedicated module just for this purpose?</p>
 
-<p>A part from that, the field type provided by either module doesn&rsquo;t require a schema definition for the configuration. Therefore there is no type casting of configuration parameters or schema checking in tests, like there is for regular configuration. A schema could also helps translating those properties of the configuration that are actually translatable, instead of allowing a completely different configuration in a translated field, as is currently the case.</p>
+<p>A part from that, the field type provided by either module doesn&rsquo;t take into account the schema validation that occurs with regular configuration, that would also help with the translation of this type of field as it does with translating regular configuration entities.</p>
 
 <hr />
 
@@ -259,7 +259,7 @@
 	</div>
 
 	<footer class="site-footer">
-	<p class="text">&copy; 2018 - Teun van Veggel</p>
+	<p class="text">&copy; 2019 - Teun van Veggel</p>
 </footer>
 
 
