@@ -4,6 +4,7 @@ description: "This holiday rental platform offers a full fledged marketing and b
 image: "flean.png"
 background: "flean_bg.png"
 date: 2017-12-01
+draft: true
 weight: -2
 ---
 
