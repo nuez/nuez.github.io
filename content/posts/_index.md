@@ -1,6 +1,6 @@
 +++
 title = "Posts"
-subtitle = "About Drupal, coding and business."
+subtitle = "About Drupal, code and other stuff."
 menu  = "nav"
 weight = 2
 +++

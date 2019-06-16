@@ -106,7 +106,7 @@ body {
   }
   h1 {
     @include breakpoint(0 $desktop) {
-      font-size: 1.4em;
+      font-size: 1.8em;
     }
   }
   article {
