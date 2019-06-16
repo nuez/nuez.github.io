@@ -159,8 +159,9 @@ The original, static HTML pages of the old website were migrated to dynamic and 
       <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/drupaldevdays-cluj-chronicle-of-an-occasional-contributor/</guid>
-      <description>Last week I attended the Drupal Dev Days in Cluj Napoca, Romania. I decided not to go to any talks but to join the &amp;lsquo;Media&amp;rsquo; team for Drupal core and work on bug fixes. Here&amp;rsquo;s what I learned.
-Testbot is king For every patch in the Drupal issue queue, the test bot runs all the 26458(!) tests that are in core at the time of writing. By doing so, Drupal tries to ensure that stuff will keep working after new things are added and bugs are fixed.</description>
+      <description>&lt;p&gt;Last week I attended the Drupal Dev Days in Cluj Napoca, Romania. I decided not to go to any talks but to join the &amp;lsquo;Media&amp;rsquo; team for Drupal core and work on bug fixes. Here&amp;rsquo;s what I learned.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
