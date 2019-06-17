@@ -1,16 +1,16 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Hi, I am Teun [nuez]"
-description = 'Freelance Drupal Consultant'
+title = "Teun van Veggel"
+description = 'Freelance Drupal specialist'
 theme = "type"
-disqusShortname = "nuez"
+disqusShortname = "nuezio"
 googleAnalytics = "UA-107417893-1"
 paginate = 10
 
 
 [params]
 	author = "Teun van Veggel"
-	description = "I am an independent **Drupal specialist** with over 7 years of experience building websites and web applications."
+	description = "I am a **freelance Drupal specialist** with over 8 years of experience building websites and web applications."
 	keywords = "drupal, web development"
 	copyright = "Teun van Veggel"
 	[params.social]
